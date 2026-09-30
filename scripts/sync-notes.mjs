@@ -41,9 +41,15 @@ function secrets() {
   } catch {
     file = {};
   }
+  let ls = {};
+  try {
+    ls = JSON.parse(fs.readFileSync(process.env.LANGSTUDY_SECRETS || "/home/box/agent-data/langstudy-secrets.json", "utf8"));
+  } catch {
+    ls = {};
+  }
   return {
-    base: (process.env.LANGSTUDY_BASE_URL || file.langstudy?.BASE_URL || "https://language-study-snowy.vercel.app").replace(/\/$/, ""),
-    apiKey: process.env.LANGSTUDY_API_KEY || file.langstudy?.API_KEY || "",
+    base: (process.env.LANGSTUDY_BASE_URL || ls.BASE_URL || file.langstudy?.BASE_URL || "https://language-study-snowy.vercel.app").replace(/\/$/, ""),
+    apiKey: process.env.LANGSTUDY_API_KEY || ls.API_KEY || file.langstudy?.API_KEY || "",
     openai:
       process.env.LCAR_OPENAI_API_KEY ||
       file.card?.OPENAI_API_KEY_FIXED ||

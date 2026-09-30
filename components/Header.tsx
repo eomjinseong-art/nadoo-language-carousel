@@ -21,8 +21,15 @@ export function Header() {
           <span className="block text-lg font-bold leading-none">캐러셀</span>
         </Link>
         <VisitCounter />
+        <Link
+          href="/about"
+          aria-current={pathname === "/about" ? "page" : undefined}
+          className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold ${pathname === "/about" ? "bg-ink text-paper" : "text-muted"}`}
+        >
+          소개
+        </Link>
       </div>
-      <nav aria-label="언어 선택" className="mx-auto flex max-w-5xl gap-1 overflow-x-auto px-4 pb-3">
+      <nav aria-label="언어 선택" className="mx-auto grid max-w-5xl grid-cols-6 gap-1 px-3 pb-3 sm:flex sm:gap-2 sm:px-4">
         {NAV_LINKS.map((item) => {
           const current = isCurrent(pathname, item.href);
           return (
@@ -30,7 +37,7 @@ export function Header() {
               key={item.href}
               href={item.href}
               aria-current={current ? "page" : undefined}
-              className={`shrink-0 rounded-full px-3 py-2 text-sm font-semibold ${
+              className={`shrink-0 rounded-full px-1 py-2 text-center text-[12px] font-semibold whitespace-nowrap sm:px-3 sm:text-sm ${
                 current ? "bg-ink text-paper" : "text-muted"
               }`}
             >

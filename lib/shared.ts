@@ -33,7 +33,6 @@ export function languageHref(code: string) {
 export const NAV_LINKS = [
   { href: "/", label: "전체" },
   ...LANGUAGES.map((item) => ({ href: languageHref(item.code), label: item.label })),
-  { href: "/about", label: "소개" },
 ] as const;
 
 export const SISTER_LINKS = [

@@ -49,7 +49,8 @@ export default function HomePage() {
             <li key={lang.code}>
               <Link
                 href={languageHref(lang.code)}
-                className="flex flex-col items-center rounded-2xl border border-line bg-card px-1 py-2 text-center"
+                className="flex flex-col items-center rounded-2xl border border-line px-1 py-2 text-center"
+                style={{ background: lang.soft, color: lang.accent }}
               >
                 <span className="text-lg" aria-hidden="true">
                   {lang.flag}

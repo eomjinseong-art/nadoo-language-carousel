@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-paper: #f3efe6;
-  --color-ink: #1c1915;
-  --color-moss: #1e4d3a;
+  --color-paper: #f6f7fb;
+  --color-ink: #1c2230;
+  --color-moss: #1d4ed8;
   --color-brass: #8a5a12;
-  --color-card: #fffcf7;
-  --color-line: #e4d9c8;
-  --color-muted: #5c564e;
+  --color-card: #ffffff;
+  --color-line: #e6e9f0;
+  --color-muted: #5b6475;
   --font-sans: var(--font-plex), "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
 }
 

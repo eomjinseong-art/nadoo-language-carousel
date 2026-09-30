@@ -71,7 +71,11 @@ export default async function CarouselPage({ params }: { params: Promise<{ slug:
       <header className="mt-6">
         <p className="flex items-center gap-2 text-xs text-muted">
           {lang ? (
-            <Link href={languageHref(lang.code)} className="rounded-full bg-card px-2 py-0.5 font-semibold text-moss">
+            <Link
+              href={languageHref(lang.code)}
+              className="rounded-full px-2 py-0.5 font-semibold"
+              style={{ background: lang.soft, color: lang.accent }}
+            >
               {lang.flag} {lang.label}
             </Link>
           ) : null}

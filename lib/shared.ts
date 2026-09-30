@@ -13,11 +13,11 @@ export const DISCLOSURE =
 export const UTM_SOURCE = "nadoo-language-carousel";
 
 export const LANGUAGES = [
-  { code: "en", label: "English", ko: "영어", flag: "🇺🇸", htmlLang: "en" },
-  { code: "ja", label: "日本語", ko: "일본어", flag: "🇯🇵", htmlLang: "ja" },
-  { code: "es", label: "Español", ko: "스페인어", flag: "🇪🇸", htmlLang: "es" },
-  { code: "it", label: "Italiano", ko: "이탈리아어", flag: "🇮🇹", htmlLang: "it" },
-  { code: "ru", label: "Русский", ko: "러시아어", flag: "🇷🇺", htmlLang: "ru" },
+  { code: "en", label: "English", ko: "영어", flag: "🇺🇸", htmlLang: "en", accent: "#1d4ed8", soft: "#e8f1ff" },
+  { code: "ja", label: "日本語", ko: "일본어", flag: "🇯🇵", htmlLang: "ja", accent: "#c81e56", soft: "#ffe8ef" },
+  { code: "es", label: "Español", ko: "스페인어", flag: "🇪🇸", htmlLang: "es", accent: "#c2410c", soft: "#ffeedd" },
+  { code: "it", label: "Italiano", ko: "이탈리아어", flag: "🇮🇹", htmlLang: "it", accent: "#047857", soft: "#dcf7ec" },
+  { code: "ru", label: "Русский", ko: "러시아어", flag: "🇷🇺", htmlLang: "ru", accent: "#6d28d9", soft: "#efe8ff" },
 ] as const;
 
 export type LanguageCode = (typeof LANGUAGES)[number]["code"];

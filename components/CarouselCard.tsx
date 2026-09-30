@@ -13,8 +13,12 @@ export type CarouselCardData = {
 };
 
 export function CarouselCard({ item }: { item: CarouselCardData }) {
+  const lang = item.language ? languageInfo(item.language) : null;
   return (
-    <article className="overflow-hidden rounded-2xl border border-line bg-card">
+    <article
+      className="overflow-hidden rounded-2xl border border-line bg-card shadow-sm"
+      style={lang ? { borderTop: `4px solid ${lang.accent}` } : undefined}
+    >
       <Link href={`/c/${item.slug}`} className="block">
         <Image
           src={item.cover}
@@ -27,9 +31,9 @@ export function CarouselCard({ item }: { item: CarouselCardData }) {
         />
         <div className="px-3 pt-3">
           <p className="flex items-center gap-2 text-[11px] text-muted">
-            {item.language && languageInfo(item.language) ? (
-              <span className="rounded-full bg-paper px-2 py-0.5 font-semibold text-moss">
-                {languageInfo(item.language)?.label}
+            {lang ? (
+              <span className="rounded-full px-2 py-0.5 font-semibold" style={{ background: lang.soft, color: lang.accent }}>
+                {lang.label}
               </span>
             ) : null}
             <time dateTime={item.date}>{formatDate(item.date)}</time>

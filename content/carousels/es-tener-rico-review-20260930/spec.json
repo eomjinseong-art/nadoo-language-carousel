@@ -1,0 +1,119 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 09/30",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "오후 복습",
+    "line2": "스페인어",
+    "sub": [
+      "tener 활용 점검",
+      "comer 다시 복습",
+      "¡Está rico! 익히기"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🌮",
+    "line1": "오늘 표현",
+    "line2": "딱 3개",
+    "body": [
+      "¿Tienes hambre?",
+      "¡Vamos a comer!",
+      "¡Está rico!"
+    ],
+    "note": "스페인어는 주어를 자주 생략해요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¿Tienes hambre?",
+        "reading": "띠에네스 암브레",
+        "meaning": "배고프니?",
+        "example": "¿Tienes hambre?",
+        "example_ko": "배고프니?"
+      },
+      {
+        "term": "¡Sí, tengo hambre!",
+        "reading": "시, 뗑고 암브레",
+        "meaning": "응, 배고파!",
+        "example": "¡Sí, tengo hambre!",
+        "example_ko": "응, 배고파!"
+      }
+    ],
+    [
+      {
+        "term": "¡Vamos a comer!",
+        "reading": "바모스 아 꼬메르",
+        "meaning": "같이 먹자!",
+        "example": "¡Vamos a comer!",
+        "example_ko": "같이 먹자!"
+      }
+    ],
+    [
+      {
+        "term": "¡Está rico!",
+        "reading": "에스따 리꼬",
+        "meaning": "맛있어!",
+        "example": "¡Está rico!",
+        "example_ko": "맛있어!"
+      },
+      {
+        "term": "¿Está rico?",
+        "reading": "에스따 리꼬",
+        "meaning": "맛있어?",
+        "example": "¿Está rico? — ¡Sí, muy rico!",
+        "example_ko": "맛있어? — 응, 아주 맛있어!"
+      }
+    ],
+    [
+      {
+        "term": "comer",
+        "reading": "꼬메르",
+        "meaning": "먹다",
+        "example": "Vamos a comer ahora.",
+        "example_ko": "이제 같이 먹자."
+      }
+    ]
+  ],
+  "fixTitle1": "교정",
+  "fixTitle2": "노트",
+  "corrections": [
+    {
+      "before": "tu tienes hambre?",
+      "after": "¿Tienes hambre?",
+      "tip": "평소엔 tú를 보통 생략해요."
+    },
+    {
+      "before": "yo tengo hambre.",
+      "after": "¡Sí, tengo hambre!",
+      "tip": "yo 없이도 자연스럽게 말해요."
+    },
+    {
+      "before": "rico?",
+      "after": "¿Está rico?",
+      "tip": "맛을 물을 땐 está를 붙여요."
+    }
+  ],
+  "summary3": [
+    "tener 활용 복습",
+    "comer 표현 점검",
+    "¡Está rico! 완료"
+  ],
+  "review": [
+    "¿Tienes hambre? 배고프니?",
+    "tengo hambre 배고파",
+    "¡Vamos a comer! 같이 먹자",
+    "¿Está rico? está 붙이기"
+  ]
+}

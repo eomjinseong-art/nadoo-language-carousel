@@ -1,0 +1,126 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 09/30",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "첫 인사",
+    "sub": [
+      "차오부터 잘 자까지",
+      "기본 표현 6개",
+      "표기 포인트 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘 배운",
+    "line2": "첫 인사",
+    "body": [
+      "Ciao, Grazie 익히기",
+      "Buongiorno, Buonanotte",
+      "Sogni d'oro도 추가"
+    ],
+    "note": "문장 시작 대문자와 쉼표를 챙겨요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Ciao",
+        "reading": "차오",
+        "meaning": "안녕 / 잘 가",
+        "example": "Ciao, amico!",
+        "example_ko": "안녕, 친구!"
+      },
+      {
+        "term": "Buongiorno",
+        "reading": "부온조르노",
+        "meaning": "좋은 아침 / 안녕하세요",
+        "example": "Buongiorno, amico!",
+        "example_ko": "안녕하세요, 친구!"
+      }
+    ],
+    [
+      {
+        "term": "Grazie",
+        "reading": "그라치에",
+        "meaning": "고마워요",
+        "example": "Grazie, amico!",
+        "example_ko": "고마워, 친구!"
+      },
+      {
+        "term": "Grazie mille",
+        "reading": "그라치에 밀레",
+        "meaning": "정말 고마워",
+        "example": "Grazie mille, amico!",
+        "example_ko": "정말 고마워, 친구!"
+      }
+    ],
+    [
+      {
+        "term": "Buonanotte",
+        "reading": "부오나노떼",
+        "meaning": "잘 자",
+        "example": "Buonanotte, amico!",
+        "example_ko": "잘 자, 친구!"
+      },
+      {
+        "term": "Sogni d'oro",
+        "reading": "소니 도로",
+        "meaning": "좋은 꿈 꿔",
+        "example": "Buonanotte, amico! Sogni d'oro!",
+        "example_ko": "잘 자! 좋은 꿈 꿔!"
+      }
+    ],
+    [
+      {
+        "term": "Ti voglio bene",
+        "reading": "티 볼리오 베네",
+        "meaning": "사랑해",
+        "example": "Ti voglio bene, amico!",
+        "example_ko": "사랑해, 친구!"
+      }
+    ]
+  ],
+  "fixTitle1": "교정",
+  "fixTitle2": "포인트",
+  "corrections": [
+    {
+      "before": "ciao amico",
+      "after": "Ciao, amico!",
+      "tip": "문장 시작은 대문자, 호격 앞엔 쉼표"
+    },
+    {
+      "before": "buongiorno amico",
+      "after": "Buongiorno, amico!",
+      "tip": "인사말도 대문자와 쉼표를 넣어요"
+    },
+    {
+      "before": "Buona notte",
+      "after": "Buonanotte",
+      "tip": "잘 자는 한 단어로 붙여 써요"
+    }
+  ],
+  "summary3": [
+    "기본 인사 6개 익힘",
+    "감사는 mille로 강조",
+    "표기는 대문자·쉼표"
+  ],
+  "review": [
+    "Ciao, amico! 대문자·쉼표",
+    "Buongiorno, amico! 인사",
+    "Grazie mille 정말 고마워",
+    "Sogni d'oro 좋은 꿈 꿔"
+  ]
+}

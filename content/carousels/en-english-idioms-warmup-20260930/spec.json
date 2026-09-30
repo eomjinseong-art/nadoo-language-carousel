@@ -1,0 +1,133 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 09/30",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 이디엄",
+    "line2": "가볍게 시작",
+    "sub": [
+      "piece of cake",
+      "grain 표현까지",
+      "교정 포인트 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 8개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🍰",
+    "line1": "오늘은",
+    "line2": "이디엄",
+    "body": [
+      "쉬운 표현 2개 바로 적중",
+      "grain 뜻도 함께 확장",
+      "bridge 표현 문장 연습"
+    ],
+    "note": "짧은 이디엄도 통째로 익히면 쉬워요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "take it with a grain of salt",
+        "reading": "",
+        "meaning": "반쯤만 믿다",
+        "example": "I take what he says with a grain of salt.",
+        "example_ko": "나는 그가 하는 말을 반쯤만 믿어."
+      },
+      {
+        "term": "a piece of cake",
+        "reading": "",
+        "meaning": "아주 쉬운 일",
+        "example": "It's a piece of cake.",
+        "example_ko": "그건 식은 죽 먹기야."
+      }
+    ],
+    [
+      {
+        "term": "a breeze",
+        "reading": "",
+        "meaning": "아주 쉬운 일",
+        "example": "The test was a breeze.",
+        "example_ko": "시험 완전 쉬웠어."
+      },
+      {
+        "term": "It's on me.",
+        "reading": "",
+        "meaning": "내가 낼게",
+        "example": "Drinks are on me!",
+        "example_ko": "음료는 내가 쏠게!"
+      }
+    ],
+    [
+      {
+        "term": "I've got this.",
+        "reading": "",
+        "meaning": "내가 할게",
+        "example": "Put your wallet away. I've got this.",
+        "example_ko": "지갑 넣어, 내가 낼게."
+      },
+      {
+        "term": "cross that bridge when we come to it",
+        "reading": "",
+        "meaning": "그때 가서 생각하자",
+        "example": "We'll cross that bridge when we come to it.",
+        "example_ko": "그건 그때 가서 생각하자."
+      }
+    ],
+    [
+      {
+        "term": "go against the grain",
+        "reading": "",
+        "meaning": "흐름을 거스르다",
+        "example": "He likes to go against the grain.",
+        "example_ko": "그는 남들과 다르게 하길 좋아해."
+      },
+      {
+        "term": "whole grain",
+        "reading": "",
+        "meaning": "통곡물",
+        "example": "whole grain bread",
+        "example_ko": "통곡물 빵"
+      }
+    ]
+  ],
+  "fixTitle1": "교정",
+  "fixTitle2": "노트",
+  "corrections": [
+    {
+      "before": "I take his words with a grain of salt.",
+      "after": "I take what he says with a grain of salt.",
+      "tip": "his words보다 what he says가 더 자연스러워요"
+    },
+    {
+      "before": "It's a piece of cake.",
+      "after": "Piece of cake! / The test was a breeze.",
+      "tip": "짧게도 자주 말하고 a breeze도 비슷해요"
+    },
+    {
+      "before": "we will cross that bridge when we come to it",
+      "after": "We'll cross that bridge when we come to it.",
+      "tip": "회화에서는 We'll 축약형이 더 자연스러워요"
+    }
+  ],
+  "summary3": [
+    "grain 이디엄 익힘",
+    "쉬운 일 표현 확장",
+    "자연스러운 교정 완료"
+  ],
+  "review": [
+    "take it with a grain of salt 반쯤만",
+    "a piece of cake 아주 쉬움",
+    "It's on me 내가 낼게",
+    "cross that bridge 나중에 생각"
+  ]
+}

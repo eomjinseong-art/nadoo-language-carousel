@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f3efe6;
+  --color-ink: #1c1915;
+  --color-moss: #1e4d3a;
+  --color-brass: #8a5a12;
+  --color-card: #fffcf7;
+  --color-line: #e4d9c8;
+  --color-muted: #5c564e;
+  --font-sans: var(--font-plex), "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-moss);
+  outline-offset: 2px;
+}

@@ -1,0 +1,126 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 09/30",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 복습",
+    "line2": "이디엄 2개",
+    "sub": [
+      "헷갈린 표현 다시",
+      "정해진 형태로 익히기",
+      "내일 퀴즈 전 점검"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🧂",
+    "line1": "오늘의",
+    "line2": "복습 포인트",
+    "body": [
+      "salt 표현은 동사까지",
+      "bridge 표현은 통째로",
+      "정해진 말로 익혀요"
+    ],
+    "note": "이디엄은 단어 하나보다 통째로 기억!",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "take it with a grain of salt",
+        "reading": "",
+        "meaning": "반쯤만 믿다",
+        "example": "I take what he says with a grain of salt.",
+        "example_ko": "나는 그가 하는 말을 반쯤만 믿어."
+      },
+      {
+        "term": "grain",
+        "reading": "",
+        "meaning": "곡물, 알갱이",
+        "example": "a grain of sand",
+        "example_ko": "모래 한 알"
+      }
+    ],
+    [
+      {
+        "term": "cross that bridge when we come to it",
+        "reading": "",
+        "meaning": "그때 가서 생각하자",
+        "example": "We'll cross that bridge when we come to it.",
+        "example_ko": "그건 그때 가서 생각하자."
+      }
+    ],
+    [
+      {
+        "term": "go against the grain",
+        "reading": "",
+        "meaning": "흐름을 거스르다",
+        "example": "He likes to go against the grain.",
+        "example_ko": "그는 남들과 다르게 하길 좋아해."
+      },
+      {
+        "term": "whole grain",
+        "reading": "",
+        "meaning": "통곡물",
+        "example": "whole grain bread",
+        "example_ko": "통곡물 빵"
+      }
+    ],
+    [
+      {
+        "term": "a breeze",
+        "reading": "",
+        "meaning": "아주 쉬운 일",
+        "example": "The test was a breeze.",
+        "example_ko": "시험은 아주 쉬웠어."
+      },
+      {
+        "term": "a piece of cake",
+        "reading": "",
+        "meaning": "식은 죽 먹기",
+        "example": "It's a piece of cake.",
+        "example_ko": "그건 식은 죽 먹기야."
+      }
+    ]
+  ],
+  "fixTitle1": "교정",
+  "fixTitle2": "노트",
+  "corrections": [
+    {
+      "before": "a grain of salt",
+      "after": "take it with a grain of salt",
+      "tip": "핵심은 take it with까지 함께"
+    },
+    {
+      "before": "we'll take it when it come to me",
+      "after": "We'll cross that bridge when we come to it.",
+      "tip": "정해진 이디엄이라 통째로 기억"
+    },
+    {
+      "before": "come",
+      "after": "comes",
+      "tip": "현재형 3인칭 단수도 자주 체크"
+    }
+  ],
+  "summary3": [
+    "salt는 동사까지",
+    "bridge는 통째로",
+    "내일 다시 퀴즈"
+  ],
+  "review": [
+    "take it with a grain of salt 반쯤만",
+    "cross that bridge 그때 생각",
+    "a breeze 아주 쉬움",
+    "a piece of cake 식은 죽 먹기"
+  ]
+}

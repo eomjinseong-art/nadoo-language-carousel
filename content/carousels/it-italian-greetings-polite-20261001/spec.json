@@ -1,0 +1,133 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/01",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "부탁·사과",
+    "sub": [
+      "저녁 인사까지 정리",
+      "안부 묻고 답하기",
+      "쉼표 뒤 소문자 체크"
+    ],
+    "stats": [
+      {
+        "b": "표현 8개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘은",
+    "line2": "생활표현",
+    "body": [
+      "부탁할 때 쓰는 말",
+      "미안할 때 쓰는 말",
+      "안부 묻고 답했어요"
+    ],
+    "note": "예문은 쉼표 뒤 소문자도 같이 봐요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Buonasera",
+        "reading": "부오나세라",
+        "meaning": "좋은 저녁이에요",
+        "example": "Buonasera.",
+        "example_ko": "좋은 저녁이에요."
+      },
+      {
+        "term": "Come stai?",
+        "reading": "꼬메 스따이?",
+        "meaning": "잘 지내?",
+        "example": "Ciao! Come stai?",
+        "example_ko": "안녕! 잘 지내?"
+      }
+    ],
+    [
+      {
+        "term": "Sto bene",
+        "reading": "스또 베네",
+        "meaning": "잘 지내요",
+        "example": "Sto bene!",
+        "example_ko": "잘 지내요!"
+      },
+      {
+        "term": "Per favore",
+        "reading": "뻬르 파보레",
+        "meaning": "부탁해요",
+        "example": "Acqua, per favore.",
+        "example_ko": "물 주세요."
+      }
+    ],
+    [
+      {
+        "term": "Scusa",
+        "reading": "스꾸자",
+        "meaning": "미안해",
+        "example": "Scusa tanto!",
+        "example_ko": "정말 미안해!"
+      },
+      {
+        "term": "Mi scusi",
+        "reading": "미 스꾸지",
+        "meaning": "실례합니다/죄송합니다",
+        "example": "Mi scusi, dov'è il bagno?",
+        "example_ko": "실례합니다, 화장실이 어디예요?"
+      }
+    ],
+    [
+      {
+        "term": "Prego",
+        "reading": "쁘레고",
+        "meaning": "천만에요",
+        "example": "Grazie mille! — Prego!",
+        "example_ko": "정말 고마워요! — 천만에요!"
+      },
+      {
+        "term": "Sogni d'oro",
+        "reading": "",
+        "meaning": "좋은 꿈 꿔",
+        "example": "Sogni d'oro!",
+        "example_ko": "좋은 꿈 꿔!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Grazi mille",
+      "after": "Grazie mille",
+      "tip": "Grazie는 끝 e를 꼭 써요"
+    },
+    {
+      "before": "Buonasera, Amico!",
+      "after": "Buonasera, amico!",
+      "tip": "쉼표 뒤에는 소문자로 써요"
+    },
+    {
+      "before": "Come stai? — Sto Bene!",
+      "after": "Come stai? — Sto bene!",
+      "tip": "문장 중간 일반명사는 소문자예요"
+    }
+  ],
+  "summary3": [
+    "저녁 인사를 배웠어요",
+    "부탁·사과 표현 익혔어요",
+    "안부 묻고 답했어요"
+  ],
+  "review": [
+    "Buonasera 저녁 인사",
+    "Per favore 부탁할 때",
+    "Come stai? 안부 묻기",
+    "Sto bene 잘 지낸다고 답"
+  ]
+}

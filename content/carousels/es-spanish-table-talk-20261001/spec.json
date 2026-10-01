@@ -1,0 +1,112 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/01",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "식탁 표현",
+    "sub": [
+      "더 주세요 말하기",
+      "목말라·배불러 표현",
+      "맛있게 드세요까지"
+    ],
+    "stats": [
+      {
+        "b": "표현 5개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🍽️",
+    "line1": "오늘은",
+    "line2": "식탁 스페인어",
+    "body": [
+      "더 달라고 말하는 법",
+      "목마름·물 표현 정리",
+      "식사 인사까지 복습"
+    ],
+    "note": "ll 발음은 보통 '예'처럼 익혀요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Más, por favor!",
+        "reading": "마스, 뽀르 파보르",
+        "meaning": "더 주세요!",
+        "example": "¿Quieres más?",
+        "example_ko": "더 먹을래?"
+      },
+      {
+        "term": "agua",
+        "reading": "아구아",
+        "meaning": "물",
+        "example": "Más agua, por favor.",
+        "example_ko": "물 좀 더 주세요."
+      }
+    ],
+    [
+      {
+        "term": "Tengo sed",
+        "reading": "뗑고 셋",
+        "meaning": "목말라",
+        "example": "¿Tienes sed?",
+        "example_ko": "목마르니?"
+      }
+    ],
+    [
+      {
+        "term": "Estoy lleno",
+        "reading": "에스또이 예노",
+        "meaning": "배불러",
+        "example": "¿Estás lleno?",
+        "example_ko": "배불러?"
+      }
+    ],
+    [
+      {
+        "term": "¡Buen provecho!",
+        "reading": "부엔 쁘로베초",
+        "meaning": "맛있게 드세요!",
+        "example": "Gracias. ¡Buen provecho!",
+        "example_ko": "고마워요. 맛있게 드세요!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Estoy lleno / Estás lleno",
+      "after": "Estoy lleno / ¿Estás lleno?",
+      "tip": "평서문과 질문문은 부호까지 함께 익혀요"
+    },
+    {
+      "before": "lleno를 '레노'로 읽기",
+      "after": "lleno를 '예노'에 가깝게 읽기",
+      "tip": "이번 노트에서는 ll 발음을 '예'로 정리"
+    },
+    {
+      "before": "¡Buen provecho! = Buon appetito",
+      "after": "스페인어는 ¡Buen provecho!",
+      "tip": "이탈리아어 표현과 섞지 않기"
+    }
+  ],
+  "summary3": [
+    "más로 더를 말해요",
+    "sed는 목마름이에요",
+    "lleno는 배부른 상태"
+  ],
+  "review": [
+    "¿Quieres más? 더 원해?",
+    "Tengo sed 목말라",
+    "Estoy lleno 배불러",
+    "¡Buen provecho! 식사 인사"
+  ]
+}

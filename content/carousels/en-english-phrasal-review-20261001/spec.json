@@ -1,0 +1,126 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/01",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 복습",
+    "line2": "구동사 5개",
+    "sub": [
+      "이디엄 2개까지 정리",
+      "자주 쓰는 표현만 쏙",
+      "헷갈린 형태 다시 체크"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "오늘은",
+    "line2": "복습데이",
+    "body": [
+      "구동사 5개를 익혔어요",
+      "이디엄 2개도 다시 확인",
+      "헷갈린 형태를 정리했어요"
+    ],
+    "note": "표현은 통째로 외우면 더 잘 써져요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "put off",
+        "reading": "풋 오프",
+        "meaning": "미루다, 연기하다",
+        "example": "Don't put off your homework.",
+        "example_ko": "숙제를 미루지 마."
+      },
+      {
+        "term": "call off",
+        "reading": "콜 오프",
+        "meaning": "취소하다",
+        "example": "We'll call off this weekend's appointments.",
+        "example_ko": "이번 주말 약속은 취소할 거예요."
+      }
+    ],
+    [
+      {
+        "term": "come up",
+        "reading": "컴 업",
+        "meaning": "(일이) 생기다",
+        "example": "Something came up last night, so I couldn't make it.",
+        "example_ko": "어젯밤 일이 생겨서 못 갔어요."
+      },
+      {
+        "term": "run out of",
+        "reading": "런 아웃 오브",
+        "meaning": "다 써 버리다",
+        "example": "We're running out of time and money.",
+        "example_ko": "시간과 돈이 바닥나고 있어요."
+      }
+    ],
+    [
+      {
+        "term": "come up with",
+        "reading": "컴 업 위드",
+        "meaning": "생각해 내다",
+        "example": "We need to come up with a better plan.",
+        "example_ko": "더 좋은 계획을 생각해 내야 해요."
+      }
+    ],
+    [
+      {
+        "term": "take it with a grain of salt",
+        "reading": "테이크 잇 위드 어 그레인 오브 솔트",
+        "meaning": "반쯤만 믿다",
+        "example": "Take what they say with a grain of salt.",
+        "example_ko": "그 말은 반쯤만 믿으세요."
+      },
+      {
+        "term": "cross that bridge when we come to it",
+        "reading": "크로스 댓 브리지 웬 위 컴 투 잇",
+        "meaning": "그때 가서 걱정하자",
+        "example": "We'll cross that bridge when we come to it.",
+        "example_ko": "그 일은 그때 가서 생각하자."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "take a grain of salt",
+      "after": "take it with a grain of salt",
+      "tip": "with와 it 위치까지 함께 익혀요"
+    },
+    {
+      "before": "Don't take it with a grain of salt",
+      "after": "Take it with a grain of salt",
+      "tip": "Don't가 붙으면 뜻이 반대로 바뀌어요"
+    },
+    {
+      "before": "cross that bridge",
+      "after": "cross that bridge when we come to it",
+      "tip": "뒤의 when절까지 통째로 기억해요"
+    }
+  ],
+  "summary3": [
+    "구동사 5개 복습 완료",
+    "이디엄 2개 형태 점검",
+    "통문장으로 외우면 쉬워요"
+  ],
+  "review": [
+    "put off = 미루다",
+    "call off = 취소하다",
+    "take it with a grain of salt",
+    "cross that bridge when we come to it"
+  ]
+}

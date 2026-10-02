@@ -1,0 +1,126 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/02",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 복습",
+    "line2": "구동사 5개",
+    "sub": [
+      "졸업한 이디엄도 체크",
+      "헷갈린 표현 다시 보기",
+      "오늘 핵심만 짧게 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "오늘은",
+    "line2": "구동사복습",
+    "body": [
+      "look forward to 익히고",
+      "put up with 다시 보고",
+      "keep up 뜻도 정리했어요"
+    ],
+    "note": "복습할 표현은 짧게 자주 보는 게 좋아요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "look forward to",
+        "reading": "룩 포워드 투",
+        "meaning": "기대하다",
+        "example": "I'm looking forward to riding a motorcycle.",
+        "example_ko": "오토바이 타는 걸 기대하고 있어요."
+      },
+      {
+        "term": "put up with",
+        "reading": "풋 업 위드",
+        "meaning": "참다, 견디다",
+        "example": "I can't put up with the noise anymore.",
+        "example_ko": "그 소음을 더는 못 참겠어요."
+      }
+    ],
+    [
+      {
+        "term": "let (someone) down",
+        "reading": "렛 다운",
+        "meaning": "실망시키다",
+        "example": "I don't want to let a friend down.",
+        "example_ko": "친구를 실망시키고 싶지 않아요."
+      },
+      {
+        "term": "take care of",
+        "reading": "테이크 케어 오브",
+        "meaning": "돌보다, 처리하다",
+        "example": "Don't worry, I'll take care of it.",
+        "example_ko": "걱정 마, 제가 처리할게요."
+      }
+    ],
+    [
+      {
+        "term": "keep up (with)",
+        "reading": "킵 업 (위드)",
+        "meaning": "계속하다, 따라가다",
+        "example": "I can't keep up with AI trends.",
+        "example_ko": "AI 트렌드를 따라가기 어려워요."
+      }
+    ],
+    [
+      {
+        "term": "take it with a grain of salt",
+        "reading": "",
+        "meaning": "곧이곧대로 믿지 않다",
+        "example": "Take it with a grain of salt.",
+        "example_ko": "너무 곧이곧대로 믿지는 마세요."
+      },
+      {
+        "term": "cross that bridge when we come to it",
+        "reading": "",
+        "meaning": "그때 가서 생각하다",
+        "example": "We'll cross that bridge when we come to it.",
+        "example_ko": "그 문제는 그때 가서 생각해요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "look forward to + 동사원형",
+      "after": "look forward to + 명사 / -ing",
+      "tip": "to가 전치사라서 뒤에 -ing를 써요"
+    },
+    {
+      "before": "keep up = 따라가다만 뜻함",
+      "after": "keep up = 계속하다 / 따라가다",
+      "tip": "with 유무에 따라 쓰임을 같이 보세요"
+    },
+    {
+      "before": "put up with = put up과 같은 뜻",
+      "after": "put up with = 참다, 견디다",
+      "tip": "with까지 붙어야 뜻이 완성돼요"
+    }
+  ],
+  "summary3": [
+    "구동사 5개를 복습했어요",
+    "이디엄 2개는 완벽 정답",
+    "두 표현은 다음 시간 재복습"
+  ],
+  "review": [
+    "put up with : 참다",
+    "keep up (with) : 계속/따라가기",
+    "look forward to + -ing",
+    "let someone down : 실망시키다"
+  ]
+}

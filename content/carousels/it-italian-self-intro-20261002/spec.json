@@ -1,0 +1,119 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/02",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "자기소개",
+    "sub": [
+      "이름 묻고 답하기",
+      "내일 봐 표현까지",
+      "Sì 악센트 체크"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘은",
+    "line2": "기초회화",
+    "body": [
+      "자기소개 표현 익히기",
+      "이름 묻고 답해보기",
+      "짧은 대답도 챙겼어요"
+    ],
+    "note": "Sì는 악센트 ì를 꼭 써주세요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Mi chiamo...",
+        "reading": "미 끼아모",
+        "meaning": "내 이름은 ~이야",
+        "example": "Ciao! Mi chiamo ~.",
+        "example_ko": "안녕! 내 이름은 ~야."
+      },
+      {
+        "term": "Come ti chiami?",
+        "reading": "꼬메 띠 끼아미?",
+        "meaning": "이름이 뭐야?",
+        "example": "Come ti chiami?",
+        "example_ko": "이름이 뭐야?"
+      }
+    ],
+    [
+      {
+        "term": "Sì",
+        "reading": "씨",
+        "meaning": "응",
+        "example": "Hai fame? — Sì!",
+        "example_ko": "배고파? — 응!"
+      },
+      {
+        "term": "No",
+        "reading": "노",
+        "meaning": "아니",
+        "example": "Hai fame? — No.",
+        "example_ko": "배고파? — 아니."
+      }
+    ],
+    [
+      {
+        "term": "Ho fame",
+        "reading": "오 파메",
+        "meaning": "배고파",
+        "example": "Andiamo al bar, ho fame!",
+        "example_ko": "카페 가자, 배고파!"
+      }
+    ],
+    [
+      {
+        "term": "A domani",
+        "reading": "아 도마니",
+        "meaning": "내일 봐",
+        "example": "Ciao! A domani!",
+        "example_ko": "안녕! 내일 봐!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Si",
+      "after": "Sì",
+      "tip": "응은 Sì, 악센트 ì가 필요해요"
+    },
+    {
+      "before": "Ciao! A Domani!",
+      "after": "Ciao! A domani!",
+      "tip": "문장 중간 표현은 소문자로 써요"
+    },
+    {
+      "before": "Andiamo al bar, Ho fame!",
+      "after": "Andiamo al bar, ho fame!",
+      "tip": "쉼표 뒤는 소문자로 이어 써요"
+    }
+  ],
+  "summary3": [
+    "자기소개 표현 학습",
+    "이름 묻고 답하기",
+    "Sì 악센트 복습"
+  ],
+  "review": [
+    "Sogni d'oro 밤인사 복습",
+    "Sì 악센트 ì 기억",
+    "Come ti chiami? 이름 묻기",
+    "A domani 내일 봐"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/02",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "돌봄표현",
+    "sub": [
+      "괜찮아? 조심해!",
+      "천천히 잘했어",
+      "가자!까지 한 번에"
+    ],
+    "stats": [
+      {
+        "b": "표현 8개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "💬",
+    "line1": "오늘은",
+    "line2": "짧은표현",
+    "body": [
+      "상대 상태 묻기",
+      "주의 주기와 속도 말하기",
+      "칭찬하고 함께 출발하기"
+    ],
+    "note": "짧은 감탄 표현일수록 억양까지 함께 익혀요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¿Estás bien?",
+        "reading": "에스따스 비엔",
+        "meaning": "괜찮아?",
+        "example": "Sí, estoy bien.",
+        "example_ko": "응, 괜찮아."
+      },
+      {
+        "term": "¡Ten cuidado!",
+        "reading": "뗀 꾸이다도",
+        "meaning": "조심해!",
+        "example": "¡Cuidado con el coche!",
+        "example_ko": "차 조심해!"
+      }
+    ],
+    [
+      {
+        "term": "despacio",
+        "reading": "데스빠시오",
+        "meaning": "천천히",
+        "example": "Come despacio.",
+        "example_ko": "천천히 먹어."
+      },
+      {
+        "term": "¡Ve despacio!",
+        "reading": "베 데스빠시오",
+        "meaning": "천천히 가!",
+        "example": "¡Ve despacio, por favor!",
+        "example_ko": "천천히 가, 부탁해."
+      }
+    ],
+    [
+      {
+        "term": "¡Muy bien!",
+        "reading": "무이 비엔",
+        "meaning": "잘했어!",
+        "example": "¡Muy bien! ¡Excelente!",
+        "example_ko": "잘했어! 최고야!"
+      },
+      {
+        "term": "¡Vamos!",
+        "reading": "바모스",
+        "meaning": "가자!",
+        "example": "¡Vamos ahora!",
+        "example_ko": "이제 가자!"
+      }
+    ],
+    [
+      {
+        "term": "¿Quieres más?",
+        "reading": "끼에레스 마스",
+        "meaning": "더 원해?",
+        "example": "¿Quieres más comida?",
+        "example_ko": "음식 더 원해?"
+      },
+      {
+        "term": "Estoy lleno",
+        "reading": "에스또이 예노",
+        "meaning": "배불러",
+        "example": "No más, estoy lleno.",
+        "example_ko": "이제 됐어, 배불러."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "¿Más?",
+      "after": "¿Quieres más?",
+      "tip": "동사 quieres를 넣어야 자연스러워요."
+    },
+    {
+      "before": "lleno → [예노]",
+      "after": "Estoy lleno",
+      "tip": "ll 발음은 예/ㅈ 비슷하게 익혀요."
+    },
+    {
+      "before": "despacio",
+      "after": "¡Ve despacio!",
+      "tip": "부사만 외우지 말고 문장째 복습해요."
+    }
+  ],
+  "summary3": [
+    "돌봄 표현 5개 학습",
+    "복습 표현도 함께 점검",
+    "짧게 자주 말해보기"
+  ],
+  "review": [
+    "¿Quieres más? 더 원해?",
+    "Estoy lleno 배불러",
+    "¡Buen provecho! 맛있게 드세요",
+    "¡Ten cuidado! 조심해!"
+  ]
+}

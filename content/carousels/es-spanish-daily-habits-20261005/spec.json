@@ -1,0 +1,119 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/05",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "생활 표현",
+    "sub": [
+      "손 씻어, 이 닦아",
+      "일어나, 서둘러",
+      "자러 가자까지"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🪥",
+    "line1": "매일쓰는",
+    "line2": "한마디",
+    "body": [
+      "생활 습관 표현 5개",
+      "짧고 자주 쓰는 명령형",
+      "발음 포인트도 복습"
+    ],
+    "note": "친근한 표현이지만 철자 끝소리도 꼭 챙기기",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Lávate las manos!",
+        "reading": "라바떼 라스 마노스",
+        "meaning": "손 씻어!",
+        "example": "Vamos a comer. ¡Lávate las manos!",
+        "example_ko": "밥 먹자. 손 씻어!"
+      },
+      {
+        "term": "¡Lávate los dientes!",
+        "reading": "라바떼 로스 디엔떼스",
+        "meaning": "이 닦아!",
+        "example": "Lávate los dientes y a dormir.",
+        "example_ko": "이 닦고 자자."
+      }
+    ],
+    [
+      {
+        "term": "¡Vamos a dormir!",
+        "reading": "바모스 아 도르미르",
+        "meaning": "자러 가자!",
+        "example": "¡Vamos a dormir!",
+        "example_ko": "자러 가자!"
+      },
+      {
+        "term": "¡Levántate!",
+        "reading": "레반따떼",
+        "meaning": "일어나!",
+        "example": "¡Levántate! Buenos días.",
+        "example_ko": "일어나! 좋은 아침."
+      }
+    ],
+    [
+      {
+        "term": "¡Date prisa!",
+        "reading": "다떼 쁘리사",
+        "meaning": "서둘러!",
+        "example": "¡Date prisa, vamos!",
+        "example_ko": "서둘러, 가자!"
+      }
+    ],
+    [
+      {
+        "term": "¡Ten cuidado!",
+        "reading": "뗀 꾸이다도",
+        "meaning": "조심해!",
+        "example": "¡Ten cuidado al caminar!",
+        "example_ko": "걸을 때 조심해!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "cuidao",
+      "after": "cuidado",
+      "tip": "-do 끝을 빼먹지 않기"
+    },
+    {
+      "before": "manos (n 두 개처럼 발음)",
+      "after": "manos",
+      "tip": "manos는 n 하나, 마노스"
+    },
+    {
+      "before": "levántate",
+      "after": "¡Levántate!",
+      "tip": "강세와 느낌표까지 같이 익히기"
+    }
+  ],
+  "summary3": [
+    "생활 표현 5개 학습",
+    "명령형 문장을 익힘",
+    "발음 포인트도 복습"
+  ],
+  "review": [
+    "¡Ten cuidado! 조심해",
+    "manos 마노스",
+    "los dientes 이 닦아",
+    "¡Date prisa! 서둘러"
+  ]
+}

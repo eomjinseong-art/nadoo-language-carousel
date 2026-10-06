@@ -1,0 +1,119 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/06",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "짧은 명령",
+    "sub": [
+      "기다려·도와줘",
+      "들어 봐·이리 와",
+      "다 했어까지 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📣",
+    "line1": "오늘은",
+    "line2": "이 표현",
+    "body": [
+      "짧고 자주 쓰는 말",
+      "기다려·도와줘·이리 와",
+      "끝났어 표현까지 학습"
+    ],
+    "note": "비슷한 도움 표현과 철자도 같이 봐요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Espera!",
+        "reading": "에스뻬라",
+        "meaning": "기다려!",
+        "example": "Espera un momento.",
+        "example_ko": "잠깐만 기다려."
+      },
+      {
+        "term": "¡Ayúdame!",
+        "reading": "아유다메",
+        "meaning": "나 좀 도와줘!",
+        "example": "¡Ayúdame, por favor!",
+        "example_ko": "나 좀 도와줘, 부탁해!"
+      }
+    ],
+    [
+      {
+        "term": "¡Escucha!",
+        "reading": "에스꾸차",
+        "meaning": "들어 봐!",
+        "example": "Escucha, por favor.",
+        "example_ko": "잘 들어 봐, 부탁해."
+      },
+      {
+        "term": "¡Ven aquí!",
+        "reading": "벤 아끼",
+        "meaning": "이리 와!",
+        "example": "Ven aquí, por favor.",
+        "example_ko": "이리 와, 부탁해."
+      }
+    ],
+    [
+      {
+        "term": "¡Ya terminé!",
+        "reading": "야 떼르미네",
+        "meaning": "다 했어!",
+        "example": "Ya terminé.",
+        "example_ko": "나 다 했어."
+      }
+    ],
+    [
+      {
+        "term": "¡Ayuda!",
+        "reading": "아유다",
+        "meaning": "도와줘! / 구조!",
+        "example": "¡Ayuda, por favor!",
+        "example_ko": "도와줘, 부탁해."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "¡Espera! = Aspetta",
+      "after": "¡Espera! = 기다려!",
+      "tip": "이탈리아어 Aspetta와 구분해요"
+    },
+    {
+      "before": "¡Ayuda!",
+      "after": "¡Ayúdame!",
+      "tip": "나를 도와줘는 me가 붙어요"
+    },
+    {
+      "before": "Ya terminé",
+      "after": "¡Ya terminé!",
+      "tip": "끝났어 의미로 통째로 익혀요"
+    }
+  ],
+  "summary3": [
+    "짧은 명령 표현 학습",
+    "도움 요청 표현 구분",
+    "끝났어 표현까지 복습"
+  ],
+  "review": [
+    "¡Levántate! 일어나!",
+    "¡Date prisa! 서둘러!",
+    "¡Espera! 기다려!",
+    "¡Ya terminé! 다 했어!"
+  ]
+}

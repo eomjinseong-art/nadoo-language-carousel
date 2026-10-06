@@ -1,0 +1,119 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/06",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 구동사",
+    "line2": "6개 정리",
+    "sub": [
+      "헷갈리는 뜻만 쏙",
+      "put up with 졸업",
+      "get away with 복습"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "오늘의",
+    "line2": "구동사",
+    "body": [
+      "자주 쓰는 표현 6개",
+      "뜻이 갈리는 표현 정리",
+      "헷갈린 포인트도 복습"
+    ],
+    "note": "get away with 뒤엔 잘못한 일이 와요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "bring up",
+        "reading": "브링 업",
+        "meaning": "화제를 꺼내다",
+        "example": "Don't bring up politics at dinner.",
+        "example_ko": "저녁 자리에서 정치 얘기는 꺼내지 마."
+      },
+      {
+        "term": "fill out",
+        "reading": "필 아웃",
+        "meaning": "서류를 작성하다",
+        "example": "Please fill out this form.",
+        "example_ko": "이 양식을 작성해 주세요."
+      }
+    ],
+    [
+      {
+        "term": "look into",
+        "reading": "룩 인투",
+        "meaning": "알아보다, 조사하다",
+        "example": "I'll look into it and get back to you.",
+        "example_ko": "알아보고 다시 연락드릴게요."
+      },
+      {
+        "term": "end up",
+        "reading": "엔드 업",
+        "meaning": "결국 ~하게 되다",
+        "example": "We ended up staying home all weekend.",
+        "example_ko": "결국 주말 내내 집에 있었어."
+      }
+    ],
+    [
+      {
+        "term": "get away with",
+        "reading": "겟 어웨이 위드",
+        "meaning": "하고도 무사히 넘기다",
+        "example": "You can't get away with lying forever.",
+        "example_ko": "거짓말하고 계속 무사할 순 없어."
+      }
+    ],
+    [
+      {
+        "term": "put up with",
+        "reading": "풋 업 위드",
+        "meaning": "참다, 견디다",
+        "example": "I can't put up with the noise anymore.",
+        "example_ko": "더는 그 소음을 못 참겠어."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "give away with",
+      "after": "get away with",
+      "tip": "표현 자체를 통째로 외우면 좋아요"
+    },
+    {
+      "before": "get away with + 명사",
+      "after": "get away with + 잘못한 일/-ing",
+      "tip": "뒤에는 들키면 안 될 행동이 와요"
+    },
+    {
+      "before": "put up with the noise from my neighbors",
+      "after": "put up with the noise",
+      "tip": "예문은 중립적으로 짧게 써도 좋아요"
+    }
+  ],
+  "summary3": [
+    "구동사 6개 복습",
+    "put up with 확실히 정리",
+    "get away with 다시 체크"
+  ],
+  "review": [
+    "bring up = 화제 꺼내기",
+    "fill out = 서류 작성",
+    "look into = 알아보다",
+    "get away with = 잘못+무사히"
+  ]
+}

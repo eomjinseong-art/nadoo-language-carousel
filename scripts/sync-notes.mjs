@@ -6,6 +6,7 @@
 //   node scripts/sync-notes.mjs --refresh       # also rebuild carousels whose note was updated later
 //   node scripts/sync-notes.mjs --force --lang=ja --date=2026-09-30   # rebuild an existing one
 //   node scripts/sync-notes.mjs --dry-run       # list what would be created
+//   Notes listed in scripts/skip-notes.json (id -> reason) are never built unless --include-skipped.
 //
 // Secrets come from env (LANGSTUDY_API_KEY, LANGSTUDY_BASE_URL, LCAR_OPENAI_API_KEY / OPENAI_API_KEY) or, on the box,
 // from /home/box/agent-data/box-secrets.json. They are never printed.
@@ -31,6 +32,14 @@ const args = Object.fromEntries(
 );
 const root = process.cwd();
 const contentRoot = path.join(root, "content/carousels");
+const SKIP_FILE = path.join(root, "scripts/skip-notes.json");
+const SKIP = (() => {
+  try {
+    return JSON.parse(fs.readFileSync(SKIP_FILE, "utf8"));
+  } catch {
+    return {};
+  }
+})();
 const MODEL = process.env.OPENAI_MODEL || "gpt-5.4";
 
 function secrets() {
@@ -298,6 +307,10 @@ async function main() {
     const { notes = [] } = await api(sec, `/api/v1/notes?language=${lang}`);
     const todo = notes.filter((note) => {
       if (args.date && note.date !== args.date) return false;
+      if (SKIP[note.id] && !args["include-skipped"]) {
+        console.log(`[${lang}] skip ${note.id} (${SKIP[note.id]})`);
+        return false;
+      }
       const have = existing.get(note.id);
       if (!have || args.force) return true;
       const updated = note.updated_at || note.added_at || "";

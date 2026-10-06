@@ -1,0 +1,119 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/05",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 구동사",
+    "line2": "5개+복습",
+    "sub": [
+      "오늘도 실전 표현",
+      "헷갈림까지 정리",
+      "바로 써먹기 좋아요"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "오늘 배운",
+    "line2": "구동사",
+    "body": [
+      "figure out, show up",
+      "turn off, give up",
+      "watch out for 복습"
+    ],
+    "note": "watch out 뒤에는 for를 자주 함께 써요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "figure out",
+        "reading": "피겨 아웃",
+        "meaning": "알아내다, 이해하다",
+        "example": "I'll figure it out when the time comes.",
+        "example_ko": "때가 되면 알아낼게요."
+      },
+      {
+        "term": "show up",
+        "reading": "쇼 업",
+        "meaning": "나타나다, 오다",
+        "example": "I showed up right on time.",
+        "example_ko": "정각에 딱 도착했어요."
+      }
+    ],
+    [
+      {
+        "term": "turn off",
+        "reading": "턴 오프",
+        "meaning": "끄다, 정떨어지게 하다",
+        "example": "His rude attitude really turned me off.",
+        "example_ko": "무례한 태도에 정말 정떨어졌어요."
+      },
+      {
+        "term": "give up",
+        "reading": "기브 업",
+        "meaning": "포기하다, 끊다",
+        "example": "Never give up until your last breath.",
+        "example_ko": "마지막까지 절대 포기하지 마세요."
+      }
+    ],
+    [
+      {
+        "term": "watch out (for)",
+        "reading": "워치 아웃 (포)",
+        "meaning": "조심하다, 주의하다",
+        "example": "Watch out for the ice on the sidewalk.",
+        "example_ko": "인도의 얼음을 조심하세요."
+      }
+    ],
+    [
+      {
+        "term": "put up with",
+        "reading": "풋 업 위드",
+        "meaning": "참다, 견디다",
+        "example": "I can't put up with the noise from the street.",
+        "example_ko": "거리 소음은 못 참겠어요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Watch out him.",
+      "after": "Watch out for him.",
+      "tip": "watch out 뒤 대상엔 for가 필요해요."
+    },
+    {
+      "before": "are turned me off",
+      "after": "turned me off",
+      "tip": "turned 앞에 are는 쓰지 않아요."
+    },
+    {
+      "before": "put up with",
+      "after": "put up with",
+      "tip": "복습 포인트예요. 뜻을 다시 익혀요."
+    }
+  ],
+  "summary3": [
+    "구동사 5개 학습",
+    "복습 1개 다시 체크",
+    "전치사까지 정확히"
+  ],
+  "review": [
+    "figure out = 알아내다",
+    "show up = 나타나다",
+    "watch out for = 조심하다",
+    "put up with = 참다"
+  ]
+}

@@ -38,7 +38,7 @@ export const BANNED_PATTERNS = [
   // They are loaded from a private terms file on the box — see loadPrivateTerms().
   ...PRIVATE.banned,
   // family roles / relationships
-  /아들/u, /아빠/u, /엄마/u, /파파/u, /아내/u, /남편/u, /우리\s?아이/u, /아이한테/u, /아이에게/u,
+  /아들/u, /아빠/u, /엄마/u, /파파/u, /(?<![가-힣])아내|(?:내|제|우리)\s?아내/u, // "알아내다·찾아내다" 같은 동사는 통과 /남편/u, /우리\s?아이/u, /아이한테/u, /아이에게/u,
   word("pap[aá]"), word("mam[aá]"), word("hij[oa]s?"), word("my (?:son|daughter|kid|wife|husband)"),
   word("daddy"), word("mommy"), word("buddy"), word("figli[oa]"),
   /сынок/iu, word("сын[а-я]*"), word("папа"), word("мама"), word("доч[а-я]*"),

@@ -1,0 +1,126 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/07",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "오늘표현",
+    "sub": [
+      "졸려·피곤해 말하기",
+      "뭐라고? 힘내!까지",
+      "헷갈림도 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘은",
+    "line2": "감정표현",
+    "body": [
+      "졸려, 피곤해를 배웠어요",
+      "Che cosa?도 익혔어요",
+      "Dai!로 응원도 해봐요"
+    ],
+    "note": "Muy bien 말고 Molto bene를 써요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Ho sonno",
+        "reading": "오 쏜노",
+        "meaning": "졸려",
+        "example": "Ho sonno.",
+        "example_ko": "졸려."
+      },
+      {
+        "term": "Hai sonno?",
+        "reading": "아이 쏜노?",
+        "meaning": "졸려?",
+        "example": "Hai sonno?",
+        "example_ko": "졸려?"
+      }
+    ],
+    [
+      {
+        "term": "Sono stanco",
+        "reading": "쏘노 스딴꼬",
+        "meaning": "피곤해",
+        "example": "Sono stanco.",
+        "example_ko": "피곤해."
+      }
+    ],
+    [
+      {
+        "term": "Che cosa?",
+        "reading": "께 꼬자?",
+        "meaning": "뭐라고?",
+        "example": "Che cosa? Non ho capito.",
+        "example_ko": "뭐라고? 이해 못 했어."
+      },
+      {
+        "term": "Non ho capito",
+        "reading": "논 오 까삐또",
+        "meaning": "이해 못 했어",
+        "example": "Non ho capito.",
+        "example_ko": "이해 못 했어."
+      }
+    ],
+    [
+      {
+        "term": "Dai!",
+        "reading": "다이!",
+        "meaning": "어서! 힘내!",
+        "example": "Dai! Ce la fai!",
+        "example_ko": "힘내! 할 수 있어!"
+      },
+      {
+        "term": "Molto bene",
+        "reading": "몰또 베네",
+        "meaning": "아주 좋아",
+        "example": "Molto bene!",
+        "example_ko": "아주 좋아!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "정리",
+  "corrections": [
+    {
+      "before": "Muy bien",
+      "after": "Molto bene",
+      "tip": "스페인어 대신 이탈리아어 표현 써요"
+    },
+    {
+      "before": "Si",
+      "after": "Sì",
+      "tip": "긍정의 sì는 악센트를 써요"
+    },
+    {
+      "before": "Hai sonno",
+      "after": "Hai sonno?",
+      "tip": "질문으로 쓰면 물음표를 붙여요"
+    }
+  ],
+  "summary3": [
+    "졸림·피곤함 표현 익힘",
+    "Che cosa? 뜻을 배움",
+    "Molto bene로 정리"
+  ],
+  "review": [
+    "Ho sonno — 졸려",
+    "Sono stanco — 피곤해",
+    "Che cosa? — 뭐라고?",
+    "Dai! Ce la fai! — 힘내!"
+  ]
+}

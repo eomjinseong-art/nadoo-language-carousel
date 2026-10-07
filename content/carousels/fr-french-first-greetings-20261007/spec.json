@@ -1,0 +1,126 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/07",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "첫 인사",
+    "sub": [
+      "Bonjour부터 시작",
+      "Merci로 감사하고",
+      "Au revoir로 마무리"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇫🇷",
+    "line1": "오늘 배운",
+    "line2": "기본 인사",
+    "body": [
+      "낮 인사 3개 익혔어요",
+      "알파벳 발음도 점검",
+      "헷갈리는 글자 구분"
+    ],
+    "note": "E/I, G/J 차이를 먼저 익혀요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Bonjour",
+        "reading": "봉주흐",
+        "meaning": "안녕하세요",
+        "example": "Bonjour, une baguette, s'il vous plaît.",
+        "example_ko": "안녕하세요, 바게트 하나 주세요."
+      }
+    ],
+    [
+      {
+        "term": "Merci",
+        "reading": "메흐씨",
+        "meaning": "고마워요",
+        "example": "Merci !",
+        "example_ko": "고마워요!"
+      },
+      {
+        "term": "Au revoir",
+        "reading": "오 흐부아흐",
+        "meaning": "안녕히 가세요",
+        "example": "Au revoir, bonne journée !",
+        "example_ko": "안녕히 계세요, 좋은 하루 보내세요!"
+      }
+    ],
+    [
+      {
+        "term": "E",
+        "reading": "으",
+        "meaning": "알파벳 E 이름",
+        "example": "E se prononce « euh ».",
+        "example_ko": "E는 '으'처럼 발음해요."
+      },
+      {
+        "term": "I",
+        "reading": "이",
+        "meaning": "알파벳 I 이름",
+        "example": "I se prononce « i ».",
+        "example_ko": "I는 '이'처럼 발음해요."
+      }
+    ],
+    [
+      {
+        "term": "G",
+        "reading": "제",
+        "meaning": "알파벳 G 이름",
+        "example": "G se prononce « jé ».",
+        "example_ko": "G는 '제'처럼 발음해요."
+      },
+      {
+        "term": "J",
+        "reading": "지",
+        "meaning": "알파벳 J 이름",
+        "example": "J se prononce « ji ».",
+        "example_ko": "J는 '지'처럼 발음해요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "E = 이",
+      "after": "E = 으",
+      "tip": "프랑스어 E 이름은 영어와 달라요"
+    },
+    {
+      "before": "G = 지 / J = 제",
+      "after": "G = 제 / J = 지",
+      "tip": "G와 J 이름을 바꿔 외우지 않기"
+    },
+    {
+      "before": "U = 우",
+      "after": "U = 위",
+      "tip": "입술은 둥글게, 소리는 '이'에 가깝게"
+    }
+  ],
+  "summary3": [
+    "인사 3개를 익혔어요",
+    "알파벳 발음 시작",
+    "헷갈림 포인트 점검"
+  ],
+  "review": [
+    "Bonjour — 낮 인사",
+    "Merci — 감사 표현",
+    "Au revoir — 헤어질 때",
+    "U/R — 입술·목소리 연습"
+  ]
+}

@@ -62,9 +62,20 @@ export default async function LanguagePage({ params }: { params: Promise<{ code:
         </p>
       </section>
       {carousels.length === 0 ? (
-        <p className="mt-6 rounded-2xl bg-card px-4 py-8 text-center text-sm text-muted">
-          아직 {lang.ko} 캐러셀이 없습니다. 곧 첫 노트가 올라옵니다.
-        </p>
+        <div
+          role="status"
+          className="mt-6 rounded-2xl border px-4 py-10 text-center"
+          style={{ background: lang.soft, borderColor: lang.soft }}
+        >
+          <p className="text-3xl" aria-hidden="true">
+            {lang.flag}
+          </p>
+          <p className="mt-3 text-base font-bold text-ink">{lang.ko} 캐러셀을 준비하고 있어요</p>
+          <p className="mt-1 text-sm leading-6 text-muted">곧 첫 공부 노트가 카드로 올라옵니다. 그때 여기서 넘겨 보세요.</p>
+          <p className="mt-3 text-xs font-semibold tracking-wide" style={{ color: lang.accent }}>
+            Coming soon
+          </p>
+        </div>
       ) : (
         <HomeExplorer cards={toCards(carousels)} tags={tags} />
       )}

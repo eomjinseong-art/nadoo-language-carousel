@@ -1,5 +1,5 @@
 // Renders 1080x1350 carousel slides in the bright 나두랭귀지 style: light backgrounds,
-// a per-language accent (en blue, ja sakura pink, es orange, it green, ru violet — same
+// a per-language accent (en blue, ja sakura pink, es orange, it green, ru violet, fr teal — same
 // palette as the language-study site), soft gradients + dot pattern, dark readable text.
 // Rendered with headless Chrome screenshots of generated HTML.
 import { execFileSync } from "node:child_process";
@@ -13,6 +13,7 @@ export const THEMES = {
   es: { accent: "#f97316", strong: "#c2410c", soft: "#ffeedd", soft2: "#fff7ef", flag: "🇪🇸", motif: "Ñ" },
   it: { accent: "#10b981", strong: "#047857", soft: "#dcf7ec", soft2: "#f0fbf6", flag: "🇮🇹", motif: "Ci" },
   ru: { accent: "#8b5cf6", strong: "#6d28d9", soft: "#efe8ff", soft2: "#f8f4ff", flag: "🇷🇺", motif: "Я" },
+  fr: { accent: "#06b6d4", strong: "#0e7490", soft: "#e0f7fb", soft2: "#f4fbfd", flag: "🇫🇷", motif: "Ç" },
 };
 
 const css = (t) => `

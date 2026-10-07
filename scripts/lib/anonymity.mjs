@@ -41,6 +41,7 @@ export const BANNED_PATTERNS = [
   /아들/u, /아빠/u, /엄마/u, /파파/u, /(?<![가-힣])아내|(?:내|제|우리)\s?아내/u, // "알아내다·찾아내다" 같은 동사는 통과 /남편/u, /우리\s?아이/u, /아이한테/u, /아이에게/u,
   word("pap[aá]"), word("mam[aá]"), word("hij[oa]s?"), word("my (?:son|daughter|kid|wife|husband)"),
   word("daddy"), word("mommy"), word("buddy"), word("figli[oa]"),
+  word("maman"), word("père"), word("mère"), word("fils"), word("fille"),
   /сынок/iu, word("сын[а-я]*"), word("папа"), word("мама"), word("доч[а-я]*"),
   /パパ/u, /ママ/u, /息子/u,
   // age / location style personal details
@@ -75,6 +76,7 @@ const SCRUB = [
   [word("buddy").source, "friend"], [word("daddy|mommy").source, "friend"],
   [/\s*Я\s+(?:папа|мама)\.?/giu, ""], [/\s*I'?m (?:a )?(?:dad|mom)\.?/giu, ""],
   [/сынок/giu, "друг"], [word("папа|мама").source, ""], [/パパ|ママ/gu, ""], [/息子/gu, "友だち"],
+  [word("maman").source, "ami"], [word("père|mère").source, ""], [word("fils|fille").source, "ami"],
 ];
 
 export function scrubText(text) {

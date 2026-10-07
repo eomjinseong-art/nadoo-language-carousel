@@ -29,7 +29,7 @@ export function Header() {
           소개
         </Link>
       </div>
-      <nav aria-label="언어 선택" className="mx-auto grid max-w-5xl grid-cols-6 gap-1 px-3 pb-3 sm:flex sm:gap-2 sm:px-4">
+      <nav aria-label="언어 선택" className="mx-auto grid max-w-5xl grid-cols-4 gap-1 px-3 pb-3 sm:flex sm:flex-wrap sm:gap-2 sm:px-4">
         {NAV_LINKS.map((item) => {
           const current = isCurrent(pathname, item.href);
           return (

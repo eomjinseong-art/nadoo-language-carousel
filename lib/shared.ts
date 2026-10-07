@@ -1,7 +1,7 @@
 export const SITE_NAME = "나두랭귀지 캐러셀";
 
 export const SITE_DESCRIPTION =
-  "나두 = 나의 모든 일상을 AI와 함께. AI 튜터와 매일 배우는 영어·일본어·스페인어·이탈리아어·러시아어 공부 노트를 카드뉴스로 — 오늘의 표현, 교정 포인트, 3줄 요약을 슬라이드로 넘겨 보세요.";
+  "나두 = 나의 모든 일상을 AI와 함께. AI 튜터와 매일 배우는 영어·일본어·스페인어·이탈리아어·러시아어·프랑스어 공부 노트를 카드뉴스로 — 오늘의 표현, 교정 포인트, 3줄 요약을 슬라이드로 넘겨 보세요.";
 
 export const SITE_TAGLINE = "AI 튜터와 매일 배우는 외국어 카드";
 
@@ -18,6 +18,7 @@ export const LANGUAGES = [
   { code: "es", label: "Español", ko: "스페인어", flag: "🇪🇸", htmlLang: "es", accent: "#c2410c", soft: "#ffeedd" },
   { code: "it", label: "Italiano", ko: "이탈리아어", flag: "🇮🇹", htmlLang: "it", accent: "#047857", soft: "#dcf7ec" },
   { code: "ru", label: "Русский", ko: "러시아어", flag: "🇷🇺", htmlLang: "ru", accent: "#6d28d9", soft: "#efe8ff" },
+  { code: "fr", label: "Français", ko: "프랑스어", flag: "🇫🇷", htmlLang: "fr", accent: "#0e7490", soft: "#e0f7fb" },
 ] as const;
 
 export type LanguageCode = (typeof LANGUAGES)[number]["code"];

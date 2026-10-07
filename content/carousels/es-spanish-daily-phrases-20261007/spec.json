@@ -1,0 +1,119 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/07",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "일상표현",
+    "sub": [
+      "신발·피곤·아파",
+      "같이 써 표현까지",
+      "복습 포인트 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇪🇸",
+    "line1": "오늘은",
+    "line2": "이 표현",
+    "body": [
+      "신발 신어 말하기",
+      "피곤해·아파? 묻기",
+      "같이 써·자랑스러워"
+    ],
+    "note": "명령형 끝소리와 철자도 같이 복습!",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Ponte los zapatos!",
+        "reading": "pon-te los sa-pa-tos",
+        "meaning": "신발 신어!",
+        "example": "¡Ponte los zapatos, rápido!",
+        "example_ko": "빨리 신발 신어!"
+      },
+      {
+        "term": "Estoy cansado",
+        "reading": "es-toy kan-sa-do",
+        "meaning": "나 피곤해",
+        "example": "¿Estás cansado? ¡Vamos a dormir!",
+        "example_ko": "피곤해? 자러 가자!"
+      }
+    ],
+    [
+      {
+        "term": "¿Te duele?",
+        "reading": "te dwe-le",
+        "meaning": "아파?",
+        "example": "¿Estás bien? ¿Dónde te duele?",
+        "example_ko": "괜찮아? 어디 아파?"
+      }
+    ],
+    [
+      {
+        "term": "¡Comparte!",
+        "reading": "kom-par-te",
+        "meaning": "나눠 써!/같이 써!",
+        "example": "¡Comparte con un amigo!",
+        "example_ko": "친구와 같이 써!"
+      }
+    ],
+    [
+      {
+        "term": "¡Estoy orgulloso de ti!",
+        "reading": "es-toy or-gu-yo-so de ti",
+        "meaning": "네가 자랑스러워!",
+        "example": "¡Muy bien! Estoy orgulloso de ti.",
+        "example_ko": "정말 잘했어! 네가 자랑스러워."
+      },
+      {
+        "term": "¡Ya terminé!",
+        "reading": "ya ter-mi-ne",
+        "meaning": "나 벌써 끝냈어!",
+        "example": "¡Ya terminé! Vamos.",
+        "example_ko": "나 벌써 끝냈어! 가자."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "¡Ya terminéte!",
+      "after": "¡Ya terminé!",
+      "tip": "terminé 뒤에 -te를 붙이지 않아요"
+    },
+    {
+      "before": "Levántate / Espera 발음 헷갈림",
+      "after": "¡Levántate! / ¡Espera!",
+      "tip": "강세와 r 소리를 또렷하게 연습해요"
+    },
+    {
+      "before": "Comparte con tu amigo",
+      "after": "Comparte con un amigo",
+      "tip": "대상은 중립적으로 바꿔 써요"
+    }
+  ],
+  "summary3": [
+    "명령형 표현을 익혔어요",
+    "상태 묻기 표현도 배웠어요",
+    "복습 문장까지 챙겼어요"
+  ],
+  "review": [
+    "¡Levántate! 일어나!",
+    "¡Espera! 기다려!",
+    "¡Escucha! 잘 들어!",
+    "¡Ven aquí! 이리 와!"
+  ]
+}

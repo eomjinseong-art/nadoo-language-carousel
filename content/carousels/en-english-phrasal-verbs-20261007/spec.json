@@ -1,0 +1,119 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/07",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 구동사",
+    "line2": "6개 정리",
+    "sub": [
+      "stick to부터",
+      "get away with까지",
+      "헷갈림도 체크"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "오늘은",
+    "line2": "구동사",
+    "body": [
+      "자주 쓰는 표현 6개",
+      "turn down 뜻 2가지",
+      "시제 실수도 함께 점검"
+    ],
+    "note": "비슷한 철자일수록 뜻 차이를 꼭 같이 보세요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "stick to",
+        "reading": "스틱 투",
+        "meaning": "지키다, 고수하다",
+        "example": "Let's stick to the plan.",
+        "example_ko": "계획대로 하자."
+      },
+      {
+        "term": "deal with",
+        "reading": "딜 위드",
+        "meaning": "처리하다, 대처하다",
+        "example": "I'll deal with it tomorrow.",
+        "example_ko": "그건 내일 처리할게."
+      }
+    ],
+    [
+      {
+        "term": "get over",
+        "reading": "겟 오버",
+        "meaning": "회복하다, 극복하다",
+        "example": "It took me a week to get over my cold.",
+        "example_ko": "감기 낫는 데 일주일 걸렸어."
+      },
+      {
+        "term": "make up for",
+        "reading": "메이크 업 포",
+        "meaning": "만회하다, 보상하다",
+        "example": "Sorry I'm late. I'll make up for it next time.",
+        "example_ko": "늦어서 미안해. 다음에 만회할게."
+      }
+    ],
+    [
+      {
+        "term": "turn down",
+        "reading": "턴 다운",
+        "meaning": "거절하다 / 줄이다",
+        "example": "She turned down the job offer.",
+        "example_ko": "그녀는 그 제안을 거절했어."
+      }
+    ],
+    [
+      {
+        "term": "get away with",
+        "reading": "겟 어웨이 위드",
+        "meaning": "하고도 무사하다",
+        "example": "They got away with breaking the rule.",
+        "example_ko": "그들은 규칙을 어기고도 넘어갔어."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "turn down ↔ tear down",
+      "after": "turn down / tear down",
+      "tip": "turn은 거절, tear는 허물다예요."
+    },
+    {
+      "before": "even though she wanted to have...",
+      "after": "even though ...",
+      "tip": "even though는 양보를 나타내요."
+    },
+    {
+      "before": "next time ...",
+      "after": "next time, I will ...",
+      "tip": "미래 뜻이면 will을 붙여 말해요."
+    }
+  ],
+  "summary3": [
+    "구동사 6개 복습",
+    "turn down 뜻 2가지",
+    "시제와 철자 점검"
+  ],
+  "review": [
+    "turn down 거절하다/줄이다",
+    "stick to 지키다",
+    "get over 회복하다",
+    "make up for 만회하다"
+  ]
+}

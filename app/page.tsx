@@ -44,7 +44,7 @@ export default function HomePage() {
           {SITE_TAGLINE}. AI 튜터와 매일 나눈 공부 노트를 카드로 넘기고, 같은 내용을 글로 다시 읽을 수 있습니다. 위 탭에서
           언어를 고르세요.
         </p>
-        <ul className="mt-4 grid grid-cols-5 gap-2" aria-label="언어별 캐러셀 수">
+        <ul className="mt-4 grid grid-cols-3 gap-2 sm:grid-cols-6" aria-label="언어별 캐러셀 수">
           {LANGUAGES.map((lang) => (
             <li key={lang.code}>
               <Link

@@ -5,16 +5,16 @@
 Live: https://nadoo-language-carousel.vercel.app
 
 [나두Ai 캐러셀](https://nadoo-carousel.vercel.app)과 같은 레이아웃·카드·뷰어·SEO 구조를 쓰고, 상단 탭으로 언어를 고릅니다:
-English (`/lang/en`) · 日本語 (`/lang/ja`) · Español (`/lang/es`) · Italiano (`/lang/it`) · Русский (`/lang/ru`).
+English (`/lang/en`) · 日本語 (`/lang/ja`) · Español (`/lang/es`) · Italiano (`/lang/it`) · Русский (`/lang/ru`) · Français (`/lang/fr`).
 
 ## 구조
 
 - `content/carousels/<slug>/` — 캐러셀 하나 = 폴더 하나 (`post.json`, `slide-XX.png/webp`, `caption.txt`, `sources.md`, `spec.json`)
-  - `post.json`의 `language`(en/ja/es/it/ru)로 탭이 나뉘고, `note_id`로 원본 학습 노트와 1:1 연결됩니다.
+  - `post.json`의 `language`(en/ja/es/it/ru/fr)로 탭이 나뉘고, `note_id`로 원본 학습 노트와 1:1 연결됩니다.
 - `scripts/sync-notes.mjs` — 학습 사이트 API(`/api/v1/notes`, `/api/v1/items?include=all`)에서 아직 캐러셀이 없는 노트를 찾아
   OpenAI로 9장 구성(표지 → 오늘의 포인트 → 표현 4장 → 교정 노트 → 3줄 요약 → 저장·복습)을 만들고, 헤드리스 Chrome으로
   1080×1350 슬라이드를 렌더링합니다.
-- `scripts/lib/slides.mjs` — 슬라이드 디자인 (밝은 배경 + 언어별 포인트 색: en 파랑, ja 벚꽃 핑크, es 오렌지, it 초록, ru 보라;
+- `scripts/lib/slides.mjs` — 슬라이드 디자인 (밝은 배경 + 언어별 포인트 색: en 파랑, ja 벚꽃 핑크, es 오렌지, it 초록, ru 보라, fr 틸;
   학습 사이트와 같은 팔레트). 디자인만 바꿨다면 `npm run render-slides` (내용은 `spec.json` 그대로, API 호출 없음).
 - `scripts/lib/anonymity.mjs` — 엄격한 익명성 게이트. 원본 노트를 모델에 보내기 전에 이름·가족 호칭을 지우고,
   결과물에 금지 패턴이 남으면 아무것도 쓰지 않고 실패합니다.

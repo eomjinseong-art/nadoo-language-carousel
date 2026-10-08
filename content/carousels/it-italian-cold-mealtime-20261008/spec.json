@@ -1,0 +1,112 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/08",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "오늘 표현",
+    "sub": [
+      "추워·먹자·인사",
+      "자주 쓰는 짧은 말",
+      "발음 포인트까지"
+    ],
+    "stats": [
+      {
+        "b": "표현 5개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘은",
+    "line2": "짧고 핵심",
+    "body": [
+      "추울 때 말하는 표현",
+      "같이 먹자고 할 때",
+      "식사 전 인사까지 익힘"
+    ],
+    "note": "Sì는 악센트를 꼭 써요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Ho freddo",
+        "reading": "오 프레도",
+        "meaning": "추워",
+        "example": "Ho freddo! Chiudi la finestra, per favore.",
+        "example_ko": "추워! 창문 좀 닫아 줘."
+      },
+      {
+        "term": "Hai freddo?",
+        "reading": "아이 프레도?",
+        "meaning": "추워?",
+        "example": "Hai freddo? Sì, ho freddo.",
+        "example_ko": "추워? 응, 추워."
+      }
+    ],
+    [
+      {
+        "term": "Mangiamo!",
+        "reading": "만지아모!",
+        "meaning": "먹자!",
+        "example": "Mangiamo la pizza?",
+        "example_ko": "피자 먹을까?"
+      }
+    ],
+    [
+      {
+        "term": "Buon appetito!",
+        "reading": "부온 아뻬띠또!",
+        "meaning": "맛있게 먹어!",
+        "example": "Grazie! Buon appetito!",
+        "example_ko": "고마워! 맛있게 먹어!"
+      }
+    ],
+    [
+      {
+        "term": "Sì, molto bene!",
+        "reading": "씨, 몰또 베네!",
+        "meaning": "응, 아주 잘했어!",
+        "example": "Sì, molto bene!",
+        "example_ko": "응, 아주 잘했어!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Si",
+      "after": "Sì",
+      "tip": "긍정의 sì는 악센트를 붙여요."
+    },
+    {
+      "before": "Buon appetito",
+      "after": "Buon appetito!",
+      "tip": "끝소리까지 또렷하게 읽어요."
+    },
+    {
+      "before": "amico, mangiamo la pizza?",
+      "after": "Mangiamo la pizza?",
+      "tip": "호칭 없이도 자연스럽게 써요."
+    }
+  ],
+  "summary3": [
+    "Ho freddo=추워",
+    "Mangiamo!=먹자",
+    "Sì 악센트 주의"
+  ],
+  "review": [
+    "Ho freddo — 추워",
+    "Hai freddo? — 추워?",
+    "Mangiamo la pizza? — 피자 먹을까",
+    "Buon appetito! — 식사 인사"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/08",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "안부+발음",
+    "sub": [
+      "안부 인사 3개",
+      "묵음·연음 핵심",
+      "헷갈린 발음 복습"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇫🇷",
+    "line1": "오늘은",
+    "line2": "안부표현",
+    "body": [
+      "안부 인사 3개 익히기",
+      "묵음·연음 감잡기",
+      "비모음 소리 맛보기"
+    ],
+    "note": "Bonjour는 아침 전용이 아니라 낮 인사예요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Comment ça va?",
+        "reading": "꼬멍 싸 바",
+        "meaning": "잘 지내요?",
+        "example": "Comment ça va?",
+        "example_ko": "잘 지내요?"
+      },
+      {
+        "term": "Ça va bien.",
+        "reading": "싸 바 비앵",
+        "meaning": "잘 지내요",
+        "example": "Ça va bien, merci !",
+        "example_ko": "잘 지내요, 고마워요!"
+      }
+    ],
+    [
+      {
+        "term": "S'il vous plaît",
+        "reading": "씰 부 쁠레",
+        "meaning": "부탁합니다 / 주세요",
+        "example": "Un café, s'il vous plaît.",
+        "example_ko": "커피 한 잔 주세요."
+      }
+    ],
+    [
+      {
+        "term": "Bonjour",
+        "reading": "봉주르",
+        "meaning": "안녕하세요",
+        "example": "Bonjour ! Comment ça va ?",
+        "example_ko": "안녕하세요! 잘 지내요?"
+      },
+      {
+        "term": "Merci",
+        "reading": "메르시",
+        "meaning": "고마워요",
+        "example": "Merci !",
+        "example_ko": "고마워요!"
+      }
+    ],
+    [
+      {
+        "term": "Au revoir",
+        "reading": "오 흐부아흐",
+        "meaning": "안녕히 가세요",
+        "example": "Au revoir !",
+        "example_ko": "안녕히 가세요!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Bonjour = 좋은 아침이에요",
+      "after": "Bonjour = 안녕하세요 / 낮 인사 전반",
+      "tip": "아침 전용 인사는 아니에요."
+    },
+    {
+      "before": "Au revoir 읽기 헷갈림",
+      "after": "Au revoir → 오 흐부아흐",
+      "tip": "revoir 발음을 통째로 익히세요."
+    },
+    {
+      "before": "vous avez를 또박또박 끊어 읽기",
+      "after": "vous avez → 부자베",
+      "tip": "연음으로 자연스럽게 이어져요."
+    }
+  ],
+  "summary3": [
+    "안부 인사 3개 학습",
+    "묵음·연음·비모음 확인",
+    "Bonjour 용법도 정리"
+  ],
+  "review": [
+    "Comment ça va? = 잘 지내요?",
+    "Ça va bien. = 잘 지내요",
+    "S'il vous plaît = 주세요",
+    "Au revoir = 오 흐부아흐"
+  ]
+}

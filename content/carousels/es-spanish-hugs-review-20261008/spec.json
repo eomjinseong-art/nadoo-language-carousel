@@ -1,0 +1,133 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/08",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "감정표현",
+    "sub": [
+      "안아 줘 말하기",
+      "보고 싶었어 표현",
+      "또 보자까지 복습"
+    ],
+    "stats": [
+      {
+        "b": "표현 8개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🤗",
+    "line1": "오늘은",
+    "line2": "다정하게",
+    "body": [
+      "안아 줘 표현 익히기",
+      "보고 싶었어 말하기",
+      "또 보자 인사까지"
+    ],
+    "note": "Ven aquí와 Vamos를 함께 구분해요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Dame un abrazo!",
+        "reading": "da-me un a-bra-so",
+        "meaning": "안아 줘!",
+        "example": "¡Dame un abrazo fuerte!",
+        "example_ko": "꼭 안아 줘!"
+      },
+      {
+        "term": "¡Te extrañé!",
+        "reading": "te eks-tra-nye",
+        "meaning": "보고 싶었어!",
+        "example": "¡Te extrañé mucho! ¡Dame un abrazo!",
+        "example_ko": "정말 보고 싶었어! 안아 줘!"
+      }
+    ],
+    [
+      {
+        "term": "¡Hasta luego!",
+        "reading": "as-ta lwe-go",
+        "meaning": "또 보자! 다음에 봐!",
+        "example": "¡Hasta luego!",
+        "example_ko": "또 보자!"
+      },
+      {
+        "term": "Te quiero",
+        "reading": "te kie-ro",
+        "meaning": "사랑해",
+        "example": "Te quiero. ¡Hasta luego!",
+        "example_ko": "사랑해. 또 보자!"
+      }
+    ],
+    [
+      {
+        "term": "¡Ven aquí!",
+        "reading": "ben a-ki",
+        "meaning": "이리 와!",
+        "example": "¡Ven aquí, por favor!",
+        "example_ko": "이리 와, 부탁해!"
+      },
+      {
+        "term": "¿Dónde te duele?",
+        "reading": "don-de te dwe-le",
+        "meaning": "어디가 아파?",
+        "example": "¿Dónde te duele?",
+        "example_ko": "어디가 아파?"
+      }
+    ],
+    [
+      {
+        "term": "¿Estás bien?",
+        "reading": "es-tas byen",
+        "meaning": "괜찮아?",
+        "example": "¿Estás bien?",
+        "example_ko": "괜찮아?"
+      },
+      {
+        "term": "¡Estoy orgulloso de ti!",
+        "reading": "es-toy or-gu-yo-so de ti",
+        "meaning": "정말 자랑스러워!",
+        "example": "¡Estoy orgulloso de ti!",
+        "example_ko": "정말 자랑스러워!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "¿Tienes bien?",
+      "after": "¿Estás bien?",
+      "tip": "상태를 물을 때는 estar를 써요"
+    },
+    {
+      "before": "¡Vamos aquí!",
+      "after": "¡Ven aquí!",
+      "tip": "이리 오라는 말은 ven aquí예요"
+    },
+    {
+      "before": "abbraccio",
+      "after": "abrazo",
+      "tip": "스페인어는 abrazo, 이탈리아어와 구분"
+    }
+  ],
+  "summary3": [
+    "다정한 표현 3개 학습",
+    "헷갈린 문장 함께 복습",
+    "짧은 인사까지 연결"
+  ],
+  "review": [
+    "¡Ven aquí! 이리 와!",
+    "¿Dónde te duele? 어디가 아파?",
+    "¿Estás bien? 괜찮아?",
+    "¡Hasta luego! 또 보자!"
+  ]
+}

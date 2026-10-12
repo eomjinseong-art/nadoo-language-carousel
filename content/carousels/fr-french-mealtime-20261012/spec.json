@@ -1,0 +1,119 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/12",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "식사 표현",
+    "sub": [
+      "배고플 때 바로 쓰기",
+      "맛있을 때 감탄하기",
+      "질문형까지 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🍽️",
+    "line1": "오늘은",
+    "line2": "밥상 불어",
+    "body": [
+      "배고파요 표현 익히기",
+      "맛있어요 감탄 익히기",
+      "한 번 더 말하기 연습"
+    ],
+    "note": "질문할 땐 J'ai faim 말고 Tu as faim?",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "J'ai faim.",
+        "reading": "줴 팽",
+        "meaning": "배고파요",
+        "example": "J'ai faim.",
+        "example_ko": "배고파요."
+      },
+      {
+        "term": "Tu as faim?",
+        "reading": "뛰 아 팽",
+        "meaning": "배고파?",
+        "example": "Tu as faim?",
+        "example_ko": "배고파요?"
+      }
+    ],
+    [
+      {
+        "term": "C'est bon!",
+        "reading": "쎄 봉",
+        "meaning": "맛있어요!",
+        "example": "C'est bon!",
+        "example_ko": "맛있어요!"
+      }
+    ],
+    [
+      {
+        "term": "Encore!",
+        "reading": "엉꼬흐",
+        "meaning": "한 번 더!",
+        "example": "Encore une fois!",
+        "example_ko": "한 번 더 해요!"
+      }
+    ],
+    [
+      {
+        "term": "Oui / Non",
+        "reading": "",
+        "meaning": "네 / 아니요",
+        "example": "Oui. / Non.",
+        "example_ko": "네. / 아니요."
+      },
+      {
+        "term": "Enchanté / Enchantée",
+        "reading": "",
+        "meaning": "만나서 반가워요",
+        "example": "Enchanté. / Enchantée.",
+        "example_ko": "만나서 반가워요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "J'ai faim ?",
+      "after": "Tu as faim ?",
+      "tip": "상대에게 물을 땐 Tu as faim?"
+    },
+    {
+      "before": "amigo, j'ai faim!",
+      "after": "J'ai faim !",
+      "tip": "이름·호칭 없이도 자연스럽게 써요"
+    },
+    {
+      "before": "Encore, amigo!",
+      "after": "Encore !",
+      "tip": "짧게 말해도 충분히 자연스러워요"
+    }
+  ],
+  "summary3": [
+    "J'ai faim 배고파요",
+    "C'est bon 맛있어요",
+    "Encore 한 번 더"
+  ],
+  "review": [
+    "Tu as faim? · 배고파요?",
+    "J'ai faim. · 내가 배고파요",
+    "Encore! · 한 번 더",
+    "R(흐) 발음 확인"
+  ]
+}

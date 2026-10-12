@@ -1,0 +1,133 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/12",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "생활표현",
+    "sub": [
+      "앉아·정리해·예쁘다",
+      "복습 표현까지 한 번에",
+      "헷갈린 철자도 체크"
+    ],
+    "stats": [
+      {
+        "b": "표현 8개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇪🇸",
+    "line1": "오늘은",
+    "line2": "생활표현",
+    "body": [
+      "짧고 자주 쓰는 말 7개",
+      "명령문과 감탄문 연습",
+      "철자 실수도 함께 정리"
+    ],
+    "note": "bien과 bonito 뜻 차이도 같이 익혀요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Siéntate!",
+        "reading": "sien-ta-te",
+        "meaning": "앉아!",
+        "example": "¡Siéntate y come!",
+        "example_ko": "앉아서 먹어!"
+      },
+      {
+        "term": "¡Recoge tus juguetes!",
+        "reading": "re-ko-he tus hu-ge-tes",
+        "meaning": "장난감 정리해!",
+        "example": "Recoge tus juguetes, por favor.",
+        "example_ko": "장난감 정리해 줘."
+      }
+    ],
+    [
+      {
+        "term": "¡Qué bonito!",
+        "reading": "ke bo-ni-to",
+        "meaning": "정말 예쁘다!",
+        "example": "¡Qué bonito dibujo!",
+        "example_ko": "그림 정말 예쁘다!"
+      },
+      {
+        "term": "¿Dónde te duele?",
+        "reading": "",
+        "meaning": "어디가 아파?",
+        "example": "¿Dónde te duele?",
+        "example_ko": "어디가 아파?"
+      }
+    ],
+    [
+      {
+        "term": "¡Estoy orgulloso de ti!",
+        "reading": "",
+        "meaning": "정말 자랑스러워!",
+        "example": "¡Estoy orgulloso de ti!",
+        "example_ko": "정말 자랑스러워!"
+      },
+      {
+        "term": "¡Dame un abrazo!",
+        "reading": "",
+        "meaning": "안아 줘!",
+        "example": "¡Dame un abrazo!",
+        "example_ko": "안아 줘!"
+      }
+    ],
+    [
+      {
+        "term": "¡Te quiero!",
+        "reading": "",
+        "meaning": "사랑해!",
+        "example": "¡Te quiero mucho!",
+        "example_ko": "정말 많이 아껴!"
+      },
+      {
+        "term": "¿Estás bien?",
+        "reading": "",
+        "meaning": "괜찮아?",
+        "example": "¿Estás bien?",
+        "example_ko": "괜찮아?"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "aqi",
+      "after": "aquí",
+      "tip": "여기서는 í 악센트를 써요"
+    },
+    {
+      "before": "dumuelle",
+      "after": "duele",
+      "tip": "아프다는 duele로 써요"
+    },
+    {
+      "before": "quiro",
+      "after": "quiero",
+      "tip": "quiero는 ie 철자예요"
+    }
+  ],
+  "summary3": [
+    "생활 표현 7개 정리",
+    "철자 실수 함께 체크",
+    "비슷한 뜻도 구분 완료"
+  ],
+  "review": [
+    "¡Siéntate! — 앉아",
+    "¿Dónde te duele? — 어디가 아파",
+    "¡Dame un abrazo! — 안아 줘",
+    "¡Qué bonito! — 정말 예쁘다"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/12",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "오늘표현",
+    "sub": [
+      "더워 말하기",
+      "몇 시인지 묻기",
+      "맛있다 감탄까지"
+    ],
+    "stats": [
+      {
+        "b": "표현 8개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🍨",
+    "line1": "오늘은",
+    "line2": "실전표현",
+    "body": [
+      "더울 때 바로 말하기",
+      "시간 묻고 1시 답하기",
+      "맛있다 감탄 표현 익히기"
+    ],
+    "note": "che는 ‘케’, 1시만 È l'una예요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Ho caldo",
+        "reading": "오 칼도",
+        "meaning": "더워",
+        "example": "Ho caldo! Andiamo al mare?",
+        "example_ko": "더워! 바다 갈까?"
+      },
+      {
+        "term": "Andiamo al mare",
+        "reading": "",
+        "meaning": "바다 갈까",
+        "example": "Ho caldo! Andiamo al mare?",
+        "example_ko": "더워! 바다 갈까?"
+      }
+    ],
+    [
+      {
+        "term": "Che ore sono?",
+        "reading": "케 오레 소노?",
+        "meaning": "몇 시야?",
+        "example": "Che ore sono? Sono le tre.",
+        "example_ko": "몇 시야? 3시야."
+      },
+      {
+        "term": "È l'una",
+        "reading": "에 루나",
+        "meaning": "1시야",
+        "example": "Che ore sono? È l'una.",
+        "example_ko": "몇 시야? 1시야."
+      }
+    ],
+    [
+      {
+        "term": "Che buono!",
+        "reading": "케 부오노!",
+        "meaning": "맛있다!",
+        "example": "Che buono il gelato!",
+        "example_ko": "젤라또 맛있다!"
+      },
+      {
+        "term": "il gelato",
+        "reading": "일 젤라또",
+        "meaning": "아이스크림",
+        "example": "Un gelato, per favore.",
+        "example_ko": "젤라또 하나 주세요."
+      }
+    ],
+    [
+      {
+        "term": "Buon appetito",
+        "reading": "",
+        "meaning": "맛있게 드세요",
+        "example": "Buon appetito!",
+        "example_ko": "맛있게 드세요!"
+      },
+      {
+        "term": "Sì",
+        "reading": "",
+        "meaning": "응, 네",
+        "example": "Sì!",
+        "example_ko": "응! / 네!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Bon appetito",
+      "after": "Buon appetito",
+      "tip": "프랑스어 bon 말고 이탈리아어 buon"
+    },
+    {
+      "before": "Che = 체",
+      "after": "Che = 케",
+      "tip": "che는 이탈리아어에서 ‘케’로 읽어요"
+    },
+    {
+      "before": "Sono l'una",
+      "after": "È l'una",
+      "tip": "1시만 단수 동사 È를 써요"
+    }
+  ],
+  "summary3": [
+    "Ho caldo로 더워",
+    "시간은 복수로 묻기",
+    "1시만 È l'una"
+  ],
+  "review": [
+    "Ho caldo = 더워",
+    "Che ore sono? = 몇 시야?",
+    "È l'una = 1시야",
+    "Buon appetito = 맛있게 드세요"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/12",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 구동사",
+    "line2": "헷갈림 정리",
+    "sub": [
+      "come across 핵심",
+      "go through 구분",
+      "졸업 표현까지 복습"
+    ],
+    "stats": [
+      {
+        "b": "표현 8개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "오늘은",
+    "line2": "구동사",
+    "body": [
+      "as 유무를 정리했어요",
+      "go와 get도 구분했어요",
+      "복습 표현도 마무리!"
+    ],
+    "note": "come across는 뜻에 따라 as 유무가 달라져요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "come across (as)",
+        "reading": "컴 어크로스 (애즈)",
+        "meaning": "우연히 발견하다 / ~하게 보이다",
+        "example": "She came across as very kind when we first met.",
+        "example_ko": "처음 만났을 때 아주 친절해 보였어요."
+      },
+      {
+        "term": "come across",
+        "reading": "컴 어크로스",
+        "meaning": "우연히 발견하다",
+        "example": "I came across an interesting article online.",
+        "example_ko": "온라인에서 흥미로운 글을 우연히 봤어요."
+      }
+    ],
+    [
+      {
+        "term": "go through",
+        "reading": "고 스루",
+        "meaning": "힘든 일을 겪다",
+        "example": "I went through a hard time last year.",
+        "example_ko": "작년에 힘든 시간을 겪었어요."
+      },
+      {
+        "term": "go through",
+        "reading": "고 스루",
+        "meaning": "검토하다",
+        "example": "Let's go through the report together.",
+        "example_ko": "보고서를 같이 검토해 봐요."
+      }
+    ],
+    [
+      {
+        "term": "take over",
+        "reading": "테이크 오버",
+        "meaning": "인수하다, 대신 맡다",
+        "example": "A bigger company took over our firm.",
+        "example_ko": "더 큰 회사가 회사를 인수했어요."
+      },
+      {
+        "term": "take over",
+        "reading": "테이크 오버",
+        "meaning": "대신 맡다",
+        "example": "He will take over the job if needed.",
+        "example_ko": "필요하면 그 일을 대신 맡을 거예요."
+      }
+    ],
+    [
+      {
+        "term": "turn down",
+        "reading": "턴 다운",
+        "meaning": "거절하다 / 소리를 줄이다",
+        "example": "She turned down the job offer.",
+        "example_ko": "제안을 거절했어요."
+      },
+      {
+        "term": "carry out",
+        "reading": "캐리 아웃",
+        "meaning": "실행하다, 수행하다",
+        "example": "We need to carry out the plan.",
+        "example_ko": "계획을 실행해야 해요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "come across as = 우연히 발견하다",
+      "after": "come across = 우연히 발견하다",
+      "tip": "발견 뜻일 때는 as를 쓰지 않아요"
+    },
+    {
+      "before": "get through a hard time",
+      "after": "go through a hard time",
+      "tip": "힘든 일을 겪다는 go through가 자연스러워요"
+    },
+    {
+      "before": "come across very kind",
+      "after": "come across as very kind",
+      "tip": "~하게 보이다 뜻이면 as가 필요해요"
+    }
+  ],
+  "summary3": [
+    "come across는 뜻별 구분",
+    "go through는 겪다·검토",
+    "복습 표현도 확실히 정리"
+  ],
+  "review": [
+    "come across = 우연히 발견",
+    "come across as = ~하게 보이다",
+    "go through = 겪다/검토",
+    "take over = 인수·대신 맡다"
+  ]
+}

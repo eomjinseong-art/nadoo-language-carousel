@@ -1,0 +1,126 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/13",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "오늘 표현",
+    "sub": [
+      "싫어·좋아해?",
+      "얼마예요 묻기",
+      "조심해·삼천"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘 핵심",
+    "line2": "4표현",
+    "body": [
+      "non mi piace 익히기",
+      "quanto costa? 묻기",
+      "attento와 tremila 정리"
+    ],
+    "note": "costa, tremila, andiamo 철자에 주의!",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Non mi piace",
+        "reading": "논 미 삐아체",
+        "meaning": "안 좋아해, 싫어",
+        "example": "No, non mi piace. Mi piace la pizza.",
+        "example_ko": "아니, 안 좋아해. 피자는 좋아해."
+      },
+      {
+        "term": "Ti piace?",
+        "reading": "띠 삐아체?",
+        "meaning": "좋아해?",
+        "example": "Ti piace il gelato?",
+        "example_ko": "젤라또 좋아해?"
+      }
+    ],
+    [
+      {
+        "term": "Quanto costa?",
+        "reading": "꽌또 꼬스따?",
+        "meaning": "얼마예요?",
+        "example": "Quanto costa il caffè? Costa due euro.",
+        "example_ko": "커피 얼마예요? 2유로예요."
+      }
+    ],
+    [
+      {
+        "term": "Attento!",
+        "reading": "아뗀또!",
+        "meaning": "조심해!",
+        "example": "Attento! La macchina!",
+        "example_ko": "조심해! 차야!"
+      },
+      {
+        "term": "Attenta!",
+        "reading": "아뗀따!",
+        "meaning": "조심해! (여성)",
+        "example": "Attenta! È pericoloso.",
+        "example_ko": "조심해! 위험해."
+      }
+    ],
+    [
+      {
+        "term": "tremila",
+        "reading": "뜨레밀라",
+        "meaning": "삼천",
+        "example": "Costa tremila euro.",
+        "example_ko": "3천 유로예요."
+      },
+      {
+        "term": "È l'una",
+        "reading": "에 루나",
+        "meaning": "1시예요",
+        "example": "È l'una.",
+        "example_ko": "1시예요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Quanto cuesta?",
+      "after": "Quanto costa?",
+      "tip": "이탈리아어는 cuesta가 아니라 costa"
+    },
+    {
+      "before": "3천 = mil",
+      "after": "3천 = tremila",
+      "tip": "천은 mille, 삼천은 tremila예요"
+    },
+    {
+      "before": "andramio",
+      "after": "Andiamo",
+      "tip": "자주 틀리는 철자예요"
+    }
+  ],
+  "summary3": [
+    "non mi piace로 부정",
+    "costa로 가격 묻기",
+    "성별 따라 attento 변화"
+  ],
+  "review": [
+    "Non mi piace = 안 좋아해",
+    "Quanto costa? = 얼마예요",
+    "tremila = 삼천",
+    "È l'una = 1시예요"
+  ]
+}

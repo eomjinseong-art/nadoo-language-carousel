@@ -1,0 +1,119 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/13",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "오늘 표현",
+    "sub": [
+      "목말라요 말하기",
+      "가자 한마디",
+      "잘 자 인사까지"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇫🇷",
+    "line1": "오늘은",
+    "line2": "3문장",
+    "body": [
+      "J'ai soif 익히고",
+      "On y va! 바로 쓰고",
+      "Bonne nuit로 마무리"
+    ],
+    "note": "oi는 '우아'처럼, nuit의 t는 묵음!",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "J'ai soif.",
+        "reading": "줴 수아프",
+        "meaning": "목말라요",
+        "example": "J'ai soif.",
+        "example_ko": "목말라요."
+      },
+      {
+        "term": "Tu as soif?",
+        "reading": "뛰 아 수아프",
+        "meaning": "목말라?",
+        "example": "Tu as soif?",
+        "example_ko": "목말라?"
+      }
+    ],
+    [
+      {
+        "term": "On y va!",
+        "reading": "오 니 바",
+        "meaning": "가자!",
+        "example": "On y va!",
+        "example_ko": "가자!"
+      },
+      {
+        "term": "On y va au parc?",
+        "reading": "오 니 바 오 빠흐끄",
+        "meaning": "공원 갈까?",
+        "example": "On y va au parc?",
+        "example_ko": "공원 갈까?"
+      }
+    ],
+    [
+      {
+        "term": "Bonne nuit.",
+        "reading": "본 뉘",
+        "meaning": "잘 자",
+        "example": "Bonne nuit!",
+        "example_ko": "잘 자!"
+      }
+    ],
+    [
+      {
+        "term": "Tu as faim?",
+        "reading": "뛰 아 팽",
+        "meaning": "배고파?",
+        "example": "Tu as faim?",
+        "example_ko": "배고파?"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Tu as faim? → 뚜 느 팽",
+      "after": "Tu as faim? → 뛰 아 팽",
+      "tip": "tu as는 '뛰 아'로 이어져요"
+    },
+    {
+      "before": "nuit의 t를 발음함",
+      "after": "nuit → t 묵음",
+      "tip": "끝 t는 소리 내지 않아요"
+    },
+    {
+      "before": "oi를 '오이'처럼 읽음",
+      "after": "soif → '수아프'",
+      "tip": "프랑스어 oi는 보통 '우아'예요"
+    }
+  ],
+  "summary3": [
+    "목마름 표현 익힘",
+    "가자 표현 바로 씀",
+    "잘 자 인사 마무리"
+  ],
+  "review": [
+    "J'ai soif. - 목말라요",
+    "On y va! - 가자!",
+    "Bonne nuit. - 잘 자",
+    "Tu as faim? - 배고파?"
+  ]
+}

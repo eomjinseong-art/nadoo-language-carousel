@@ -1,0 +1,133 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/13",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "짧은 한마디",
+    "sub": [
+      "착하게 굴어",
+      "조금 줘",
+      "물론이지"
+    ],
+    "stats": [
+      {
+        "b": "표현 8개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇪🇸",
+    "line1": "오늘의",
+    "line2": "짧은표현",
+    "body": [
+      "명령문 2개를 익혔어요",
+      "대답 표현도 함께 복습",
+      "헷갈린 철자도 정리!"
+    ],
+    "note": "parco가 아니라 스페인어는 parque예요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Pórtate bien!",
+        "reading": "por-ta-te bien",
+        "meaning": "착하게 굴어! 말 잘 들어!",
+        "example": "¡Pórtate bien en la escuela!",
+        "example_ko": "학교에서 말 잘 들어!"
+      },
+      {
+        "term": "¡Siéntate!",
+        "reading": "sién-ta-te",
+        "meaning": "앉아!",
+        "example": "¡Siéntate aquí, por favor!",
+        "example_ko": "여기 앉아, 부탁해!"
+      }
+    ],
+    [
+      {
+        "term": "¡Dame un poco!",
+        "reading": "da-me un po-ko",
+        "meaning": "조금 줘! 한 입 줘!",
+        "example": "¿Está rico? ¡Dame un poco!",
+        "example_ko": "맛있어? 나도 조금 줘!"
+      },
+      {
+        "term": "¡Dame un abrazo!",
+        "reading": "da-me un a-bra-so",
+        "meaning": "안아 줘!",
+        "example": "¡Dame un abrazo, por favor!",
+        "example_ko": "안아 줘, 부탁해!"
+      }
+    ],
+    [
+      {
+        "term": "¡Sí, claro!",
+        "reading": "si, kla-ro",
+        "meaning": "그럼, 물론이지!",
+        "example": "¡Sí, claro! Vamos a jugar en el parque.",
+        "example_ko": "그럼! 공원에서 놀자."
+      },
+      {
+        "term": "jugar en el parque",
+        "reading": "hu-gar en el par-ke",
+        "meaning": "공원에서 놀다",
+        "example": "Vamos a jugar en el parque.",
+        "example_ko": "공원에서 놀자."
+      }
+    ],
+    [
+      {
+        "term": "¿Dónde te duele?",
+        "reading": "don-de te due-le",
+        "meaning": "어디가 아파?",
+        "example": "¿Dónde te duele? ¿Estás bien?",
+        "example_ko": "어디가 아파? 괜찮아?"
+      },
+      {
+        "term": "¡Estoy orgulloso de ti!",
+        "reading": "es-toi or-gu-yo-so de ti",
+        "meaning": "정말 자랑스러워!",
+        "example": "¡Estoy orgulloso de ti!",
+        "example_ko": "정말 자랑스러워!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "¿Dónde tu duele?",
+      "after": "¿Dónde te duele?",
+      "tip": "신체·감정 대상은 te를 써요"
+    },
+    {
+      "before": "¿Tienes bien?",
+      "after": "¿Estás bien?",
+      "tip": "상태를 물을 땐 estar를 써요"
+    },
+    {
+      "before": "parco / abravo / bointo",
+      "after": "parque / abrazo / bonito",
+      "tip": "qu, b, ni 철자를 함께 체크!"
+    }
+  ],
+  "summary3": [
+    "짧은 명령문 2개 학습",
+    "물론이지 표현 복습",
+    "te와 철자 실수 점검"
+  ],
+  "review": [
+    "¡Pórtate bien! 말 잘 들어!",
+    "¡Dame un poco! 조금 줘!",
+    "¡Sí, claro! 물론이지!",
+    "parque 공원, 철자 주의"
+  ]
+}

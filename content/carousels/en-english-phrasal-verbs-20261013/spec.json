@@ -1,0 +1,119 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/13",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 구동사",
+    "line2": "오늘 핵심",
+    "sub": [
+      "보이다 뉘앙스",
+      "힘든 일 겪기",
+      "후속 표현 3개"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "헷갈리는",
+    "line2": "구동사 5개",
+    "body": [
+      "이미 배운 표현 2개 복습",
+      "새 구동사 3개 추가",
+      "on/with 쓰임도 체크"
+    ],
+    "note": "구동사는 전치사까지 같이 외우면 쉬워요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "come across as",
+        "reading": "컴 어크로스 애즈",
+        "meaning": "~처럼 보이다",
+        "example": "I don't want to come across as impolite.",
+        "example_ko": "무례한 사람처럼 보이고 싶지 않아요."
+      },
+      {
+        "term": "go through",
+        "reading": "고 쓰루",
+        "meaning": "(힘든 일을) 겪다",
+        "example": "She's going through a tough time right now.",
+        "example_ko": "지금 힘든 시간을 겪고 있어요."
+      }
+    ],
+    [
+      {
+        "term": "rule out",
+        "reading": "룰 아웃",
+        "meaning": "배제하다",
+        "example": "We can't rule out that possibility yet.",
+        "example_ko": "아직 그 가능성을 배제할 수 없어요."
+      }
+    ],
+    [
+      {
+        "term": "follow up on",
+        "reading": "팔로우 업",
+        "meaning": "~에 후속 조치하다",
+        "example": "I'll follow up on that after the meeting.",
+        "example_ko": "회의 후 그 건을 후속 조치할게요."
+      },
+      {
+        "term": "follow up with",
+        "reading": "팔로우 업",
+        "meaning": "~에게 다시 연락하다",
+        "example": "I'll follow up with the client tomorrow.",
+        "example_ko": "내일 다시 연락할게요."
+      }
+    ],
+    [
+      {
+        "term": "brush up on",
+        "reading": "브러쉬 업 온",
+        "meaning": "(실력을) 다시 다듬다",
+        "example": "I need to brush up on my English before the trip.",
+        "example_ko": "여행 전에 영어를 다시 다듬어야 해요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "follow up that",
+      "after": "follow up on that",
+      "tip": "대상 앞에는 on을 많이 써요."
+    },
+    {
+      "before": "brush up my English",
+      "after": "brush up on my English",
+      "tip": "brush up on 형태로 외우세요."
+    },
+    {
+      "before": "come across impolite",
+      "after": "come across as impolite",
+      "tip": "인상 표현엔 as를 붙여요."
+    }
+  ],
+  "summary3": [
+    "복습 2개 완료",
+    "새 표현 3개 추가",
+    "전치사까지 체크"
+  ],
+  "review": [
+    "rule out 배제하다",
+    "follow up on 후속 조치",
+    "brush up on 다시 다듬기",
+    "come across as ~처럼 보이다"
+  ]
+}

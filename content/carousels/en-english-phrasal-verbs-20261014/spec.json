@@ -1,0 +1,118 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/14",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "오늘의",
+    "line2": "영어구동사",
+    "sub": [
+      "hold off on 정리",
+      "iron out 구분",
+      "set aside 복습"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📝",
+    "line1": "비슷한데",
+    "line2": "자꾸헷갈려",
+    "body": [
+      "on, out, aside 정리",
+      "뜻만 말고 형태까지",
+      "자주 쓰는 예문 복습"
+    ],
+    "note": "구동사는 전치사까지 함께 외우면 쉬워요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "follow up on",
+        "reading": "팔로우 업 온",
+        "meaning": "(일) 후속 조치하다",
+        "example": "I'll follow up on that email tomorrow.",
+        "example_ko": "그 이메일은 내일 후속 조치할게요."
+      },
+      {
+        "term": "follow up with",
+        "reading": "팔로우 업 위드",
+        "meaning": "(사람) 다시 연락하다",
+        "example": "I'll follow up with the client tomorrow.",
+        "example_ko": "그쪽에 내일 다시 연락할게요."
+      }
+    ],
+    [
+      {
+        "term": "brush up on",
+        "reading": "브러쉬 업 온",
+        "meaning": "실력을 다시 다듬다",
+        "example": "I need to brush up on my English.",
+        "example_ko": "영어를 다시 다듬어야 해요."
+      }
+    ],
+    [
+      {
+        "term": "hold off (on)",
+        "reading": "홀드 오프 온",
+        "meaning": "미루다, 보류하다",
+        "example": "Let's hold off on the decision until next week.",
+        "example_ko": "결정은 다음 주까지 미뤄 둡시다."
+      },
+      {
+        "term": "iron out",
+        "reading": "아이언 아웃",
+        "meaning": "문제를 해결·조율하다",
+        "example": "We need to iron out the details before the meeting.",
+        "example_ko": "회의 전에 세부 사항을 조율해야 해요."
+      }
+    ],
+    [
+      {
+        "term": "set aside",
+        "reading": "셋 어사이드",
+        "meaning": "따로 떼어 두다",
+        "example": "I set aside some money for savings every month.",
+        "example_ko": "매달 저축용으로 돈을 조금 떼어 둬요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "follow up with on",
+      "after": "follow up on / follow up with",
+      "tip": "일은 on, 사람은 with로 나눠 써요"
+    },
+    {
+      "before": "hold on",
+      "after": "hold off on",
+      "tip": "미루다는 hold off on이 자연스러워요"
+    },
+    {
+      "before": "iron on",
+      "after": "iron out",
+      "tip": "문제 해결은 out을 붙여요"
+    }
+  ],
+  "summary3": [
+    "follow up 용법 구분",
+    "hold off on 복습",
+    "iron out 뜻 정리"
+  ],
+  "review": [
+    "hold off on : 미루다",
+    "iron out : 조율하다",
+    "follow up on : 후속 조치"
+  ]
+}

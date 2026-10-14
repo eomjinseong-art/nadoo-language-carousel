@@ -1,0 +1,119 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/14",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "오늘표현",
+    "sub": [
+      "사랑해 말하기",
+      "졸릴 때 표현",
+      "다 했어요까지"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇫🇷",
+    "line1": "오늘 배운",
+    "line2": "짧은 한마디",
+    "body": [
+      "사랑해 표현 익히기",
+      "졸려요 자연하게 말하기",
+      "다 했어요까지 정리"
+    ],
+    "note": "J'ai sommeil 끝소리는 '이'로 기억해요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Je t'aime.",
+        "reading": "쥬 뗌",
+        "meaning": "사랑해.",
+        "example": "Bonne nuit. Je t'aime.",
+        "example_ko": "잘 자. 사랑해."
+      }
+    ],
+    [
+      {
+        "term": "J'ai sommeil.",
+        "reading": "줴 쏘메이",
+        "meaning": "졸려요.",
+        "example": "J'ai sommeil.",
+        "example_ko": "졸려요."
+      },
+      {
+        "term": "Tu as sommeil ?",
+        "reading": "뛰 아 쏘메이",
+        "meaning": "졸려?",
+        "example": "Tu as sommeil ?",
+        "example_ko": "졸려?"
+      }
+    ],
+    [
+      {
+        "term": "J'ai fini !",
+        "reading": "줴 피니",
+        "meaning": "다 했어요.",
+        "example": "J'ai fini !",
+        "example_ko": "다 했어요!"
+      },
+      {
+        "term": "Tu as fini ?",
+        "reading": "뛰 아 피니",
+        "meaning": "다 했어?",
+        "example": "Tu as fini ?",
+        "example_ko": "다 했어?"
+      }
+    ],
+    [
+      {
+        "term": "Bonne nuit.",
+        "reading": "본 뉘",
+        "meaning": "잘 자.",
+        "example": "Bonne nuit. Je t'aime.",
+        "example_ko": "잘 자. 사랑해."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "J'ai sommei",
+      "after": "J'ai sommeil",
+      "tip": "마지막 il은 묵음이지만 소리는 '이'예요"
+    },
+    {
+      "before": "Je t'aimee",
+      "after": "Je t'aime",
+      "tip": "aime의 final e는 소리 나지 않아요"
+    },
+    {
+      "before": "J'ai fini ?",
+      "after": "J'ai fini !",
+      "tip": "끝냈다고 말할 땐 보통 감탄 느낌이에요"
+    }
+  ],
+  "summary3": [
+    "사랑해는 Je t'aime",
+    "졸려요는 J'ai sommeil",
+    "다 했어요는 J'ai fini"
+  ],
+  "review": [
+    "Je t'aime = 사랑해",
+    "J'ai sommeil = 졸려요",
+    "J'ai fini = 다 했어요",
+    "sommeil 끝소리 '이'"
+  ]
+}

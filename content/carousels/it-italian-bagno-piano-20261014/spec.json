@@ -1,0 +1,119 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/14",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "바로 쓰는",
+    "sub": [
+      "화장실 묻기",
+      "이해 안 될 때",
+      "천천히 말해줘"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘은",
+    "line2": "생존표현",
+    "body": [
+      "화장실 위치 묻기",
+      "이해 안 된다고 말하기",
+      "천천히 부탁하기"
+    ],
+    "note": "gn, 악센트, piano 뜻을 같이 익혀요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Dov'è il bagno?",
+        "reading": "도베 일 바뇨?",
+        "meaning": "화장실 어디예요?",
+        "example": "Scusi, dov'è il bagno?",
+        "example_ko": "실례하지만 화장실 어디예요?"
+      },
+      {
+        "term": "lì",
+        "reading": "리",
+        "meaning": "저기",
+        "example": "Il bagno è lì.",
+        "example_ko": "화장실은 저기에 있어요."
+      }
+    ],
+    [
+      {
+        "term": "Non capisco",
+        "reading": "논 까삐스꼬",
+        "meaning": "이해가 안 돼요",
+        "example": "Scusi, non capisco.",
+        "example_ko": "죄송하지만 이해가 안 돼요."
+      }
+    ],
+    [
+      {
+        "term": "Piano!",
+        "reading": "삐아노!",
+        "meaning": "천천히!",
+        "example": "Parla piano, per favore.",
+        "example_ko": "천천히 말해 주세요."
+      }
+    ],
+    [
+      {
+        "term": "tremila",
+        "reading": "트레밀라",
+        "meaning": "삼천",
+        "example": "Tremila è 3.000.",
+        "example_ko": "tremila는 3,000이에요."
+      },
+      {
+        "term": "mille",
+        "reading": "밀레",
+        "meaning": "천",
+        "example": "Mille è 1.000.",
+        "example_ko": "mille는 1,000이에요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Non ho capito",
+      "after": "Non capisco",
+      "tip": "지금 이해 안 될 땐 현재형을 써요"
+    },
+    {
+      "before": "dove / li",
+      "after": "dov'è / lì",
+      "tip": "축약형과 악센트 표기를 꼭 확인해요"
+    },
+    {
+      "before": "gn 발음",
+      "after": "bagno = 바뇨",
+      "tip": "gn은 스페인어 ñ 비슷한 소리예요"
+    }
+  ],
+  "summary3": [
+    "Dov'è il bagno 익히기",
+    "Non capisco 구분하기",
+    "악센트 표기 챙기기"
+  ],
+  "review": [
+    "Dov'è il bagno? 화장실 어디예요",
+    "Non capisco 이해 안 돼요",
+    "Piano! 천천히",
+    "dov'è / lì 악센트 확인"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/14",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "오늘의",
+    "line2": "스페인어",
+    "sub": [
+      "걱정 말하기",
+      "응원 한마디",
+      "자기 전 인사"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🌙",
+    "line1": "오늘 배운",
+    "line2": "한마디",
+    "body": [
+      "걱정하지 마",
+      "넌 할 수 있어",
+      "좋은 꿈 꿔"
+    ],
+    "note": "tú와 tu는 뜻이 달라요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡No te preocupes!",
+        "reading": "노 떼 쁘레오꾸뻬스",
+        "meaning": "걱정하지 마!",
+        "example": "¿Estás bien? ¡No te preocupes!",
+        "example_ko": "괜찮아? 걱정하지 마!"
+      },
+      {
+        "term": "¡Tú puedes!",
+        "reading": "뚜 뿌에데스",
+        "meaning": "넌 할 수 있어!",
+        "example": "¡Vamos, tú puedes!",
+        "example_ko": "힘내, 넌 할 수 있어!"
+      }
+    ],
+    [
+      {
+        "term": "¡Dulces sueños!",
+        "reading": "둘세스 수에뇨스",
+        "meaning": "좋은 꿈 꿔!",
+        "example": "Buenas noches. ¡Dulces sueños!",
+        "example_ko": "안녕히 주무세요. 좋은 꿈 꿔!"
+      }
+    ],
+    [
+      {
+        "term": "¡Recoge tus juguetes!",
+        "reading": "",
+        "meaning": "장난감을 정리해!",
+        "example": "¡Recoge tus juguetes, por favor!",
+        "example_ko": "장난감을 정리해 줘!"
+      },
+      {
+        "term": "¡Pórtate bien!",
+        "reading": "",
+        "meaning": "얌전히 있어!",
+        "example": "Hoy también, ¡pórtate bien!",
+        "example_ko": "오늘도 얌전히 지내!"
+      }
+    ],
+    [
+      {
+        "term": "jugar en el parque",
+        "reading": "",
+        "meaning": "공원에서 놀다",
+        "example": "Vamos a jugar en el parque.",
+        "example_ko": "공원에서 놀자."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "preguntaes",
+      "after": "preocupes",
+      "tip": "걱정하다 preocuparse 형태로 기억"
+    },
+    {
+      "before": "tu puedes",
+      "after": "tú puedes",
+      "tip": "tú는 주어 너, tu는 너의"
+    },
+    {
+      "before": "Dulce sueños",
+      "after": "Dulces sueños",
+      "tip": "dulces는 복수형으로 써요"
+    }
+  ],
+  "summary3": [
+    "걱정 말하기 완료",
+    "응원 표현 익힘",
+    "밤인사까지 복습"
+  ],
+  "review": [
+    "¡No te preocupes! 걱정 마",
+    "¡Tú puedes! 넌 할 수 있어",
+    "¡Dulces sueños! 좋은 꿈 꿔",
+    "¡Recoge tus juguetes! 다시"
+  ]
+}

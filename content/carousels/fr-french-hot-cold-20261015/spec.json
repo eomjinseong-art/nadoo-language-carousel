@@ -1,0 +1,126 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/15",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "몸상태 표현",
+    "sub": [
+      "더워요·추워요·아파요",
+      "J'ai 패턴 익히기",
+      "Tu 발음도 체크"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🌡️",
+    "line1": "오늘은",
+    "line2": "몸상태",
+    "body": [
+      "더워요·추워요·아파요",
+      "J'ai ~ 패턴을 익혔어요",
+      "Tu 발음도 함께 점검!"
+    ],
+    "note": "Tu는 '뚜'보다 '뛰'에 가깝게 읽어요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "J'ai chaud.",
+        "reading": "줴 쇼",
+        "meaning": "더워요",
+        "example": "J'ai chaud.",
+        "example_ko": "더워요."
+      },
+      {
+        "term": "Tu as chaud ?",
+        "reading": "뛰 아 쇼",
+        "meaning": "더워?",
+        "example": "Tu as chaud ?",
+        "example_ko": "더워?"
+      }
+    ],
+    [
+      {
+        "term": "J'ai froid.",
+        "reading": "줴 프후아",
+        "meaning": "추워요",
+        "example": "J'ai froid.",
+        "example_ko": "추워요."
+      },
+      {
+        "term": "Tu as froid ?",
+        "reading": "뛰 아 프후아",
+        "meaning": "추워?",
+        "example": "Tu as froid ?",
+        "example_ko": "추워?"
+      }
+    ],
+    [
+      {
+        "term": "J'ai mal.",
+        "reading": "줴 말",
+        "meaning": "아파요",
+        "example": "J'ai mal.",
+        "example_ko": "아파요."
+      },
+      {
+        "term": "Tu as mal ?",
+        "reading": "뛰 아 말",
+        "meaning": "아파?",
+        "example": "Tu as mal ?",
+        "example_ko": "아파?"
+      }
+    ],
+    [
+      {
+        "term": "J'ai ~",
+        "reading": "줴 ~",
+        "meaning": "나는 ~해요",
+        "example": "J'ai chaud. J'ai froid. J'ai mal.",
+        "example_ko": "나는 더워요, 추워요, 아파요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Tu = '뚜'",
+      "after": "Tu = '뛰'",
+      "tip": "u 소리를 더 둥글고 짧게 내요."
+    },
+    {
+      "before": "J'ai sommeil → 뜻을 바로 못 떠올림",
+      "after": "J'ai sommeil = 졸려요",
+      "tip": "다음 복습 표현으로 꼭 다시 보기"
+    },
+    {
+      "before": "froid의 oi 소리 헷갈림",
+      "after": "froid = '프후아'",
+      "tip": "oi는 '우아'에 가깝게 읽어요."
+    }
+  ],
+  "summary3": [
+    "J'ai로 상태를 말해요",
+    "chaud·froid·mal 학습",
+    "Tu 발음은 '뛰' 체크"
+  ],
+  "review": [
+    "J'ai chaud. 더워요",
+    "J'ai froid. 추워요",
+    "J'ai mal. 아파요",
+    "J'ai sommeil. 졸려요"
+  ]
+}

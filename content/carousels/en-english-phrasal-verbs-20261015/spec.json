@@ -1,0 +1,119 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/15",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "영어 구동사",
+    "line2": "오늘 3개",
+    "sub": [
+      "cut back on 정리",
+      "wrap up 감 잡기",
+      "bring about 익히기"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "오늘 표현",
+    "line2": "한 번에",
+    "body": [
+      "새 구동사 3개 학습",
+      "이전 표현도 함께 복습",
+      "헷갈리는 쓰임도 체크"
+    ],
+    "note": "tomorrow / by tomorrow 차이도 같이 봤어요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "cut back on",
+        "reading": "컷 백 온",
+        "meaning": "(양을) 줄이다",
+        "example": "I'm cutting back on coffee for my health.",
+        "example_ko": "건강 때문에 커피를 줄이고 있어요."
+      },
+      {
+        "term": "wrap up",
+        "reading": "랩 업",
+        "meaning": "마무리하다",
+        "example": "Let's wrap up today's meeting.",
+        "example_ko": "오늘 회의는 이걸로 마무리합시다."
+      }
+    ],
+    [
+      {
+        "term": "bring about",
+        "reading": "브링 어바웃",
+        "meaning": "변화·결과를 가져오다",
+        "example": "The new policy brought about big changes.",
+        "example_ko": "새 정책이 큰 변화를 가져왔어요."
+      }
+    ],
+    [
+      {
+        "term": "follow up on",
+        "reading": "팔로우 업 온",
+        "meaning": "후속 조치하다",
+        "example": "I'll follow up on that email tomorrow.",
+        "example_ko": "그 이메일은 내일 후속 조치할게요."
+      }
+    ],
+    [
+      {
+        "term": "hold off on",
+        "reading": "",
+        "meaning": "미루다",
+        "example": "Let's hold off on the decision for now.",
+        "example_ko": "그 결정은 일단 미뤄둡시다."
+      },
+      {
+        "term": "iron out",
+        "reading": "",
+        "meaning": "문제를 해결하다",
+        "example": "We need to iron out the details.",
+        "example_ko": "세부 사항을 조율해야 해요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "until tomorrow",
+      "after": "tomorrow / by tomorrow",
+      "tip": "한 번 하는 일은 until보다 이렇게 써요"
+    },
+    {
+      "before": "everyday",
+      "after": "every day",
+      "tip": "부사구는 띄어 써요"
+    },
+    {
+      "before": "every day",
+      "after": "everyday",
+      "tip": "형용사는 붙여 써요"
+    }
+  ],
+  "summary3": [
+    "구동사 3개 새로 학습",
+    "이전 표현도 복습 완료",
+    "철자·쓰임 차이 정리"
+  ],
+  "review": [
+    "bring about 변화 초래",
+    "cut back on 양 줄이기",
+    "wrap up 마무리하기",
+    "follow up on 후속 조치"
+  ]
+}

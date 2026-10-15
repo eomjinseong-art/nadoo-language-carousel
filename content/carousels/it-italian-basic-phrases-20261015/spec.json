@@ -1,0 +1,112 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/15",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "짧은표현",
+    "sub": [
+      "이리 와, 또, 잠깐만",
+      "짧아도 자주 써요",
+      "철자 포인트까지"
+    ],
+    "stats": [
+      {
+        "b": "표현 5개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘은",
+    "line2": "짧게끝",
+    "body": [
+      "자주 쓰는 짧은 표현 3개",
+      "ancora 뜻도 함께 정리",
+      "tremila 철자도 체크"
+    ],
+    "note": "짧은 표현일수록 발음과 철자를 같이 익혀요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Vieni qui!",
+        "reading": "비에니 꾸이!",
+        "meaning": "이리 와!",
+        "example": "Vieni qui, per favore.",
+        "example_ko": "이리 와 주세요."
+      }
+    ],
+    [
+      {
+        "term": "Ancora!",
+        "reading": "안꼬라!",
+        "meaning": "또! 한 번 더!",
+        "example": "Ancora un caffè?",
+        "example_ko": "커피 한 잔 더?"
+      }
+    ],
+    [
+      {
+        "term": "Un momento!",
+        "reading": "운 모멘또!",
+        "meaning": "잠깐만!",
+        "example": "Un momento, per favore.",
+        "example_ko": "잠깐만요."
+      }
+    ],
+    [
+      {
+        "term": "tremila",
+        "reading": "트레밀라",
+        "meaning": "3천",
+        "example": "tremila",
+        "example_ko": "3천"
+      },
+      {
+        "term": "mille",
+        "reading": "밀레",
+        "meaning": "천",
+        "example": "mille",
+        "example_ko": "천"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "mille / tremilla",
+      "after": "mille / tremila",
+      "tip": "천은 ll, 3천은 l 하나예요."
+    },
+    {
+      "before": "Ven qui",
+      "after": "Vieni qui!",
+      "tip": "오늘 노트 표현은 vieni qui예요."
+    },
+    {
+      "before": "Un mommento",
+      "after": "Un momento!",
+      "tip": "momento는 m 하나씩 써요."
+    }
+  ],
+  "summary3": [
+    "Vieni qui 익히기",
+    "Ancora 뜻 익히기",
+    "tremila 철자 체크"
+  ],
+  "review": [
+    "Vieni qui! : 이리 와!",
+    "Ancora! : 한 번 더!",
+    "Un momento! : 잠깐만!",
+    "tremila : 3천, l 하나"
+  ]
+}

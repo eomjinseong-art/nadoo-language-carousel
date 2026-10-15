@@ -1,0 +1,126 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/15",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "바로 쓰는",
+    "sub": [
+      "무슨 일이야?",
+      "추워? 문 열어!",
+      "헷갈림까지 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇪🇸",
+    "line1": "오늘은",
+    "line2": "이 표현",
+    "body": [
+      "상대에게 묻는 말 2개",
+      "바로 쓰는 요청 1개",
+      "철자 차이도 복습"
+    ],
+    "note": "이탈리아어와 섞이지 않게 같이 외워요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¿Qué pasó?",
+        "reading": "ke pa-SO",
+        "meaning": "무슨 일이야?",
+        "example": "¿Qué pasó? ¿Estás bien?",
+        "example_ko": "무슨 일이야? 괜찮아?"
+      },
+      {
+        "term": "¿Tienes frío?",
+        "reading": "TYE-nes FRI-o",
+        "meaning": "추워?",
+        "example": "¿Tienes frío? Ponte la chaqueta.",
+        "example_ko": "추워? 겉옷 입어."
+      }
+    ],
+    [
+      {
+        "term": "¡Abre la puerta!",
+        "reading": "A-bre la PWER-ta",
+        "meaning": "문 열어!",
+        "example": "¡Abre la puerta, por favor!",
+        "example_ko": "문 좀 열어 줘!"
+      }
+    ],
+    [
+      {
+        "term": "¡No te preocupes!",
+        "reading": "",
+        "meaning": "걱정하지 마!",
+        "example": "¡No te preocupes! Tú puedes.",
+        "example_ko": "걱정하지 마! 넌 할 수 있어."
+      },
+      {
+        "term": "¡Tú puedes!",
+        "reading": "",
+        "meaning": "넌 할 수 있어!",
+        "example": "¡Tú puedes! Sigue así.",
+        "example_ko": "넌 할 수 있어! 계속 이렇게 해."
+      }
+    ],
+    [
+      {
+        "term": "jugar",
+        "reading": "",
+        "meaning": "놀다, 경기하다",
+        "example": "Me gusta jugar.",
+        "example_ko": "나는 노는 걸 좋아해."
+      },
+      {
+        "term": "bien",
+        "reading": "비엔",
+        "meaning": "잘, 좋은",
+        "example": "Estoy bien.",
+        "example_ko": "나는 잘 지내."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "fame",
+      "after": "hambre",
+      "tip": "배고픔은 스페인어로 hambre예요"
+    },
+    {
+      "before": "Apri la puerta",
+      "after": "¡Abre la puerta!",
+      "tip": "스페인어는 abre, 이탈리아어와 구분해요"
+    },
+    {
+      "before": "bien",
+      "after": "bien (비엔)",
+      "tip": "발음은 '비엔'으로 익혀 두세요"
+    }
+  ],
+  "summary3": [
+    "질문 표현 2개 익힘",
+    "요청 표현 1개 익힘",
+    "헷갈리는 낱말 복습"
+  ],
+  "review": [
+    "¿Qué pasó? 무슨 일이야?",
+    "¿Tienes frío? 추워?",
+    "¡Abre la puerta! 문 열어!",
+    "bien 발음은 비엔"
+  ]
+}

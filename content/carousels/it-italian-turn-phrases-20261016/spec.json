@@ -1,0 +1,126 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/16",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "차례 표현",
+    "sub": [
+      "아쉽다·괜찮아",
+      "네 차례야·내 차례야",
+      "bagno 철자도 체크"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘 표현",
+    "line2": "바로 쓰기",
+    "body": [
+      "아쉽다 말하는 표현",
+      "괜찮아 답하는 표현",
+      "차례 말하기까지 정리"
+    ],
+    "note": "이름·호칭 없이도 바로 쓸 수 있어요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Che peccato!",
+        "reading": "케 뻬까또!",
+        "meaning": "아쉽다! 안타깝다!",
+        "example": "Piove? Che peccato!",
+        "example_ko": "비 와? 아쉽다!"
+      },
+      {
+        "term": "Non importa",
+        "reading": "논 임뽀르따",
+        "meaning": "괜찮아 상관없어",
+        "example": "Scusa! — Non importa.",
+        "example_ko": "미안! — 괜찮아."
+      }
+    ],
+    [
+      {
+        "term": "Tocca a te!",
+        "reading": "또까 아 떼!",
+        "meaning": "네 차례야!",
+        "example": "Adesso tocca a te!",
+        "example_ko": "이제 네 차례야!"
+      },
+      {
+        "term": "Tocca a me!",
+        "reading": "또까 아 메!",
+        "meaning": "내 차례야!",
+        "example": "Adesso tocca a me!",
+        "example_ko": "이제 내 차례야!"
+      }
+    ],
+    [
+      {
+        "term": "Dov'è il bagno?",
+        "reading": "도베 일 바뇨?",
+        "meaning": "화장실이 어디예요?",
+        "example": "Scusi, dov'è il bagno?",
+        "example_ko": "실례합니다, 화장실이 어디예요?"
+      }
+    ],
+    [
+      {
+        "term": "bagno",
+        "reading": "바뇨",
+        "meaning": "화장실, 목욕",
+        "example": "Il bagno è lì.",
+        "example_ko": "화장실은 저쪽이에요."
+      },
+      {
+        "term": "dov'è",
+        "reading": "도베",
+        "meaning": "어디에 있어?",
+        "example": "Dov'è la stazione?",
+        "example_ko": "역이 어디에 있어요?"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "dove è",
+      "after": "dov'è",
+      "tip": "dove + è가 줄어든 형태예요"
+    },
+    {
+      "before": "bagino",
+      "after": "bagno",
+      "tip": "gn은 한국어로 '뇨'에 가까워요"
+    },
+    {
+      "before": "ballo = bagno",
+      "after": "ballo ≠ bagno",
+      "tip": "ballo는 춤, bagno는 화장실"
+    }
+  ],
+  "summary3": [
+    "Che peccato 익히기",
+    "Non importa로 답하기",
+    "Tocca a te/me 구분"
+  ],
+  "review": [
+    "Che peccato! 아쉽다!",
+    "Non importa 괜찮아",
+    "Tocca a te 네 차례",
+    "Dov'è il bagno? 철자 체크"
+  ]
+}

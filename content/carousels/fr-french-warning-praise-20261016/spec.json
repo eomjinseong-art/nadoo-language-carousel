@@ -1,0 +1,112 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/16",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "짧은 한마디",
+    "sub": [
+      "이리 와·조심해",
+      "잘했어까지",
+      "발음 포인트 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 5개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇫🇷",
+    "line1": "오늘의 말",
+    "line2": "3개 완성",
+    "body": [
+      "이리 와 표현 익히기",
+      "조심해 감탄사 배우기",
+      "잘했어와 발음 복습"
+    ],
+    "note": "프랑스어 R은 목에서 '흐' 느낌!",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Viens ici!",
+        "reading": "비앵 이씨",
+        "meaning": "이리 와!",
+        "example": "Viens ici, on y va!",
+        "example_ko": "이리 와, 가자!"
+      }
+    ],
+    [
+      {
+        "term": "Attention!",
+        "reading": "아떵씨옹",
+        "meaning": "조심해!",
+        "example": "Attention, c'est chaud!",
+        "example_ko": "조심해, 뜨거워!"
+      }
+    ],
+    [
+      {
+        "term": "Bravo!",
+        "reading": "브하보",
+        "meaning": "잘했어!",
+        "example": "Tu as fini? Bravo!",
+        "example_ko": "다 했어? 잘했어!"
+      }
+    ],
+    [
+      {
+        "term": "J'ai sommeil.",
+        "reading": "제 소메이",
+        "meaning": "졸려요",
+        "example": "J'ai sommeil aujourd'hui.",
+        "example_ko": "오늘은 졸려요."
+      },
+      {
+        "term": "Tu as faim?",
+        "reading": "뛰 아 팽",
+        "meaning": "배고파?",
+        "example": "Tu as faim maintenant?",
+        "example_ko": "지금 배고파?"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "faim → '펭'",
+      "after": "faim → '팽'",
+      "tip": "ai는 'ㅐ'보다 비모음 '앵/팽'에 가까워요"
+    },
+    {
+      "before": "Bravo → '브라보'",
+      "after": "Bravo → '브하보'",
+      "tip": "프랑스어 R은 굴리지 않고 목에서 내요"
+    },
+    {
+      "before": "Viens final s 발음하기",
+      "after": "Viens final s 묵음",
+      "tip": "viens의 끝 s는 소리 내지 않아요"
+    }
+  ],
+  "summary3": [
+    "짧은 표현 3개 학습",
+    "비모음 발음 점검",
+    "R 소리 다시 복습"
+  ],
+  "review": [
+    "Viens ici! · 이리 와!",
+    "Attention! · 조심해!",
+    "Bravo! · 잘했어!",
+    "faim · '팽' 비모음"
+  ]
+}

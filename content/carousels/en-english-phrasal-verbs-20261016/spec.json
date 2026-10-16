@@ -1,0 +1,119 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/16",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "오늘의",
+    "line2": "영어구동사",
+    "sub": [
+      "자주 쓰는 표현",
+      "등록·보충·줄이다",
+      "헷갈림까지 정리"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "짧고 굵게",
+    "line2": "구동사 3개",
+    "body": [
+      "밀린 것 보충 표현",
+      "등록할 때 쓰는 표현",
+      "양을 줄일 때도 정리"
+    ],
+    "note": "job은 sign up for보다 apply for를 써요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "catch up on",
+        "reading": "캐치 업 온",
+        "meaning": "(밀린 것을) 보충하다",
+        "example": "I caught up on sleep over the weekend.",
+        "example_ko": "주말 동안 밀린 잠을 보충했어요."
+      },
+      {
+        "term": "cut back on",
+        "reading": "컷 백 온",
+        "meaning": "(양을) 줄이다",
+        "example": "I'm cutting back on coffee for my health.",
+        "example_ko": "건강 때문에 커피를 줄이고 있어요."
+      }
+    ],
+    [
+      {
+        "term": "sign up for",
+        "reading": "사인 업 포",
+        "meaning": "~에 등록하다, 가입하다",
+        "example": "I signed up for a free trial on the website.",
+        "example_ko": "웹사이트에서 무료 체험에 가입했어요."
+      }
+    ],
+    [
+      {
+        "term": "lay off",
+        "reading": "레이 오프",
+        "meaning": "(정리)해고하다",
+        "example": "The company laid off 50 employees.",
+        "example_ko": "그 회사는 직원 50명을 해고했어요."
+      }
+    ],
+    [
+      {
+        "term": "bring about",
+        "reading": "브링 어바웃",
+        "meaning": "초래하다, 일으키다",
+        "example": "The policy brought about big changes.",
+        "example_ko": "그 정책은 큰 변화를 일으켰어요."
+      },
+      {
+        "term": "wrap up",
+        "reading": "랩 업",
+        "meaning": "마무리하다",
+        "example": "Let's wrap up the meeting.",
+        "example_ko": "회의를 마무리해요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "cut by on",
+      "after": "cut back on",
+      "tip": "구동사는 전치사까지 함께 외워요"
+    },
+    {
+      "before": "sign up for a job",
+      "after": "apply for a job",
+      "tip": "job 지원은 apply for가 자연스러워요"
+    },
+    {
+      "before": "lay offed",
+      "after": "laid off",
+      "tip": "lay off의 과거형은 laid off예요"
+    }
+  ],
+  "summary3": [
+    "catch up on 복습",
+    "sign up for 익히기",
+    "lay off 과거형 체크"
+  ],
+  "review": [
+    "cut back on : 양을 줄이다",
+    "sign up for : 등록하다",
+    "lay off : laid off 주의",
+    "catch up on : 밀린 것 보충"
+  ]
+}

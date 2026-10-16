@@ -1,0 +1,112 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/16",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "스페인어",
+    "line2": "식사 표현",
+    "sub": [
+      "손 씻어! 바로 말하기",
+      "뭐 먹고 싶어? 묻기",
+      "맛있게 먹어! 인사"
+    ],
+    "stats": [
+      {
+        "b": "표현 5개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🍽️",
+    "line1": "오늘의",
+    "line2": "식사표현",
+    "body": [
+      "손 씻어! 명령문 익히기",
+      "먹고 싶은 것 묻기",
+      "식사 인사까지 정리"
+    ],
+    "note": "이탈리아어 표현과 헷갈리지 않게 구분!",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Lávate las manos!",
+        "reading": "LA-ba-te las MA-nos",
+        "meaning": "손 씻어!",
+        "example": "¡Lávate las manos y come!",
+        "example_ko": "손 씻고 밥 먹어!"
+      }
+    ],
+    [
+      {
+        "term": "¿Qué quieres comer?",
+        "reading": "ke KYE-res ko-MER",
+        "meaning": "뭐 먹고 싶어?",
+        "example": "¿Tienes hambre? ¿Qué quieres comer?",
+        "example_ko": "배고파? 뭐 먹고 싶어?"
+      }
+    ],
+    [
+      {
+        "term": "¡Buen provecho!",
+        "reading": "bwen pro-BE-cho",
+        "meaning": "맛있게 먹어!",
+        "example": "Gracias. ¡Buen provecho!",
+        "example_ko": "고마워요. 맛있게 드세요!"
+      }
+    ],
+    [
+      {
+        "term": "¿Quieres pizza?",
+        "reading": "KYE-res PI-tsa",
+        "meaning": "피자 먹고 싶어?",
+        "example": "¿Quieres pizza o pasta?",
+        "example_ko": "피자 아니면 파스타 먹고 싶어?"
+      },
+      {
+        "term": "¿Tienes frío?",
+        "reading": "TYE-nes FRI-o",
+        "meaning": "추워?",
+        "example": "¿Tienes frío? Cierra la ventana.",
+        "example_ko": "추워? 창문 닫아."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Lavati le mani / Buon appetito",
+      "after": "¡Lávate las manos! / ¡Buen provecho!",
+      "tip": "이탈리아어 말고 스페인어 표현으로 기억!"
+    },
+    {
+      "before": "¡Abre la puertta!",
+      "after": "¡Abre la puerta!",
+      "tip": "puerta 철자에 t 하나만 써요"
+    },
+    {
+      "before": "juguetes → 발음·철자 헷갈림",
+      "after": "juguetes",
+      "tip": "복수형 -s까지 함께 확인해요"
+    }
+  ],
+  "summary3": [
+    "식사 표현 3개 익힘",
+    "질문형과 명령형 연습",
+    "비슷한 표현도 구분 완료"
+  ],
+  "review": [
+    "¡Tú puedes! : 넌 할 수 있어!",
+    "¡Abre la puerta! : 문 열어!",
+    "¿Quieres pizza? : 먹고 싶어?",
+    "¡Dulces sueños! : 잘 자요"
+  ]
+}

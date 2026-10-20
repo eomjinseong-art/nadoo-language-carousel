@@ -1,0 +1,107 @@
+{
+  "language": "en",
+  "langLabel": "English",
+  "topLabel": "영어 · 10/20",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 영어",
+    "line1": "오늘의 영어",
+    "line2": "fall through",
+    "sub": [
+      "무산되다 자연스럽게",
+      "cut back on 복습",
+      "try to 뒤 동사원형"
+    ],
+    "stats": [
+      {
+        "b": "표현 5개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 2개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "📘",
+    "line1": "오늘 표현",
+    "line2": "2개 정리",
+    "body": [
+      "fall through 뜻과 활용",
+      "cut back on 다시 체크",
+      "try to 문법도 복습"
+    ],
+    "note": "fall-fell-fallen 형태도 같이 기억해요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "fall through",
+        "reading": "폴 쓰루",
+        "meaning": "(계획·거래가) 무산되다",
+        "example": "Our weekend plans fell through because of the rain.",
+        "example_ko": "비 때문에 주말 계획이 무산됐어요."
+      }
+    ],
+    [
+      {
+        "term": "fall through",
+        "reading": "폴 쓰루",
+        "meaning": "(계획·거래가) 무산되다",
+        "example": "The deal fell through at the last minute.",
+        "example_ko": "거래가 막판에 무산됐어요."
+      }
+    ],
+    [
+      {
+        "term": "cut back on",
+        "reading": "컷 백 온",
+        "meaning": "(양을) 줄이다",
+        "example": "I'm trying to cut back on sugar these days.",
+        "example_ko": "요즘 설탕을 줄이려고 해요."
+      }
+    ],
+    [
+      {
+        "term": "fell",
+        "reading": "",
+        "meaning": "fall의 과거형",
+        "example": "Our plans fell through yesterday.",
+        "example_ko": "우리 계획은 어제 무산됐어요."
+      },
+      {
+        "term": "fallen",
+        "reading": "",
+        "meaning": "fall의 과거분사",
+        "example": "The plan has fallen through.",
+        "example_ko": "그 계획은 무산됐어요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "try to cutting back on sugar",
+      "after": "try to cut back on sugar",
+      "tip": "try to 뒤에는 동사원형이 와요"
+    },
+    {
+      "before": "fallen through",
+      "after": "fell through",
+      "tip": "단순과거는 fell, 과거분사는 fallen"
+    }
+  ],
+  "summary3": [
+    "fall through 배웠어요",
+    "cut back on 복습했어요",
+    "try to 뒤 원형 확인"
+  ],
+  "review": [
+    "fall through = 무산되다",
+    "cut back on = 줄이다",
+    "fall-fell-fallen",
+    "try to + 동사원형"
+  ]
+}

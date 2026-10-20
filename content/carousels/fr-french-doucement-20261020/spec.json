@@ -1,0 +1,126 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/20",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "두쓰멍",
+    "sub": [
+      "doucement 익히기",
+      "비모음 발음 체크",
+      "faim·R도 복습"
+    ],
+    "stats": [
+      {
+        "b": "표현 7개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🐌",
+    "line1": "오늘은",
+    "line2": "두쓰멍",
+    "body": [
+      "doucement 뜻 익히기",
+      "-ment 비모음 확인",
+      "faim·R 발음도 복습"
+    ],
+    "note": "프랑스어 R은 'ㄹ' 말고 '흐'에 가까워요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Doucement",
+        "reading": "두쓰멍",
+        "meaning": "살살, 천천히",
+        "example": "Mange doucement.",
+        "example_ko": "천천히 먹어."
+      },
+      {
+        "term": "Doucement !",
+        "reading": "두쓰멍",
+        "meaning": "조심조심!",
+        "example": "Doucement !",
+        "example_ko": "살살 해!"
+      }
+    ],
+    [
+      {
+        "term": "Tu as faim ?",
+        "reading": "뛰 아 팽",
+        "meaning": "배고파?",
+        "example": "Tu as faim ?",
+        "example_ko": "배고파?"
+      },
+      {
+        "term": "Bravo !",
+        "reading": "브하보",
+        "meaning": "잘했어!",
+        "example": "Bravo !",
+        "example_ko": "잘했어!"
+      }
+    ],
+    [
+      {
+        "term": "-ment",
+        "reading": "멍",
+        "meaning": "부사 어미 발음",
+        "example": "Doucement se prononce avec \"멍\".",
+        "example_ko": "doucement는 '멍'으로 읽어요."
+      }
+    ],
+    [
+      {
+        "term": "ou",
+        "reading": "두/우",
+        "meaning": "ou는 '우' 소리",
+        "example": "Dans doucement, ou se prononce \"두\".",
+        "example_ko": "doucement의 ou는 '두'로 읽어요."
+      },
+      {
+        "term": "u",
+        "reading": "뒤/위",
+        "meaning": "u는 '위'에 가까움",
+        "example": "En français, u est différent de ou.",
+        "example_ko": "프랑스어 u는 ou와 달라요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "faim → 펭",
+      "after": "faim → 팽",
+      "tip": "비모음이라 '펭'보다 '팽'에 가까워요"
+    },
+    {
+      "before": "Bravo → 브라보",
+      "after": "Bravo → 브하보",
+      "tip": "R은 'ㄹ'을 넣지 않고 '흐'처럼"
+    },
+    {
+      "before": "doucement → 두쓰멘트",
+      "after": "doucement → 두쓰멍",
+      "tip": "-ment의 t는 묵음, 끝은 비모음"
+    }
+  ],
+  "summary3": [
+    "doucement 뜻 익힘",
+    "-ment 발음 확인",
+    "faim·R도 복습"
+  ],
+  "review": [
+    "Doucement = 살살, 천천히",
+    "faim = '팽' 비모음",
+    "Bravo = R은 '흐'",
+    "-ment = '멍'으로 읽기"
+  ]
+}

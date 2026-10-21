@@ -1,0 +1,107 @@
+{
+  "language": "it",
+  "langLabel": "Italiano",
+  "topLabel": "이탈리아어 · 10/21",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 이탈리아어",
+    "line1": "이탈리아어",
+    "line2": "뭐 해?",
+    "sub": [
+      "Che fai? 배우기",
+      "domani 뜻 익히기",
+      "복습까지 한 번에"
+    ],
+    "stats": [
+      {
+        "b": "표현 5개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 2개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🇮🇹",
+    "line1": "오늘 표현",
+    "line2": "딱 3개",
+    "body": [
+      "Che fai?를 배웠어요",
+      "domani 뜻도 익혔어요",
+      "복습 표현도 챙겼어요"
+    ],
+    "note": "mañana가 아니라 이탈리아어는 domani예요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Che fai?",
+        "reading": "케 파이?",
+        "meaning": "뭐 해?",
+        "example": "Che fai stasera?",
+        "example_ko": "오늘 저녁에 뭐 해?"
+      },
+      {
+        "term": "domani",
+        "reading": "도마니",
+        "meaning": "내일",
+        "example": "Che fai domani?",
+        "example_ko": "내일 뭐 해?"
+      }
+    ],
+    [
+      {
+        "term": "Dov'è il bagno?",
+        "reading": "도베 일 바뇨?",
+        "meaning": "화장실이 어디예요?",
+        "example": "Scusi, dov'è il bagno?",
+        "example_ko": "실례합니다, 화장실이 어디예요?"
+      }
+    ],
+    [
+      {
+        "term": "Ancora!",
+        "reading": "안코라!",
+        "meaning": "다시! 한 번 더!",
+        "example": "Ancora, per favore!",
+        "example_ko": "다시 한 번 부탁해요!"
+      }
+    ],
+    [
+      {
+        "term": "Andiamo al caffè?",
+        "reading": "안디아모 알 카페?",
+        "meaning": "카페 갈래?",
+        "example": "Che fai domani? Andiamo al caffè?",
+        "example_ko": "내일 뭐 해? 카페 갈래?"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "mañana",
+      "after": "domani",
+      "tip": "스페인어와 섞지 않기"
+    },
+    {
+      "before": "amico, che fai stasera?",
+      "after": "Che fai stasera?",
+      "tip": "호칭은 빼고 중립 문장으로 익혀요"
+    }
+  ],
+  "summary3": [
+    "Che fai?를 익혔어요",
+    "domani 뜻을 배웠어요",
+    "복습 표현도 정리했어요"
+  ],
+  "review": [
+    "Che fai? : 뭐 해?",
+    "domani : 내일",
+    "Dov'è il bagno? : 화장실 어디?",
+    "Ancora! : 다시!"
+  ]
+}

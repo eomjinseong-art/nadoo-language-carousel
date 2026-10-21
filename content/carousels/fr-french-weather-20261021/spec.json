@@ -1,0 +1,112 @@
+{
+  "language": "fr",
+  "langLabel": "Français",
+  "topLabel": "프랑스어 · 10/21",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 프랑스어",
+    "line1": "프랑스어",
+    "line2": "날씨 표현",
+    "sub": [
+      "Il fait beau 익히기",
+      "복습 발음도 체크",
+      "짧게 바로 말해요"
+    ],
+    "stats": [
+      {
+        "b": "표현 5개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 3개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🌤️",
+    "line1": "오늘의",
+    "line2": "날씨 한마디",
+    "body": [
+      "Il fait beau 배웠어요",
+      "복습 발음도 함께 체크",
+      "짧고 자주 쓰는 표현!"
+    ],
+    "note": "fait의 t는 묵음이에요.",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "Il fait beau",
+        "reading": "일 페 보",
+        "meaning": "날씨 좋다",
+        "example": "Il fait beau aujourd'hui.",
+        "example_ko": "오늘 날씨 좋네."
+      },
+      {
+        "term": "Il fait beau !",
+        "reading": "일 페 보",
+        "meaning": "날씨 좋다!",
+        "example": "Il fait beau ! On va au parc ?",
+        "example_ko": "날씨 좋다! 공원 갈까?"
+      }
+    ],
+    [
+      {
+        "term": "Doucement",
+        "reading": "두쓰멍",
+        "meaning": "천천히",
+        "example": "Parle doucement, s'il te plaît.",
+        "example_ko": "천천히 말해 줘."
+      }
+    ],
+    [
+      {
+        "term": "Tu as faim ?",
+        "reading": "뛰 아 팽",
+        "meaning": "배고파?",
+        "example": "Tu as faim ?",
+        "example_ko": "배고파?"
+      }
+    ],
+    [
+      {
+        "term": "Bravo",
+        "reading": "브하보",
+        "meaning": "잘했어!",
+        "example": "Bravo !",
+        "example_ko": "잘했어!"
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "Doucement → ou를 헷갈림",
+      "after": "Doucement (두쓰멍)",
+      "tip": "ou는 보통 '우/두' 느낌으로 읽어요."
+    },
+    {
+      "before": "faim (펭)",
+      "after": "faim (팽)",
+      "tip": "faim은 '펭'보다 '팽'에 가까워요."
+    },
+    {
+      "before": "Il fait beau → fait의 t 발음",
+      "after": "Il fait beau",
+      "tip": "fait의 끝 t는 묵음이에요."
+    }
+  ],
+  "summary3": [
+    "날씨 표현 1개 익힘",
+    "복습 발음도 점검",
+    "묵음 t까지 체크"
+  ],
+  "review": [
+    "Il fait beau = 날씨 좋다",
+    "Doucement = 천천히",
+    "Tu as faim ? = 배고파?",
+    "faim = '팽' 발음"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "language": "es",
+  "langLabel": "Español",
+  "topLabel": "스페인어 · 10/21",
+  "cover": {
+    "kicker": "AI 튜터와 매일 · 스페인어",
+    "line1": "오늘의",
+    "line2": "스페인어",
+    "sub": [
+      "잠옷 표현 익히기",
+      "복습 표현 함께 정리",
+      "철자 차이도 체크"
+    ],
+    "stats": [
+      {
+        "b": "표현 6개",
+        "span": "오늘 배운 표현"
+      },
+      {
+        "b": "교정 2개",
+        "span": "틀리기 쉬운 포인트"
+      }
+    ]
+  },
+  "hook": {
+    "icon": "🛏️",
+    "line1": "오늘은",
+    "line2": "잠옷 표현",
+    "body": [
+      "새 표현 1개를 익혔어요",
+      "복습 표현도 함께 점검!",
+      "철자 차이까지 정리했어요"
+    ],
+    "note": "pijama 철자는 이탈리아어와 달라요",
+    "note_label": "오늘의 포인트"
+  },
+  "expressions": [
+    [
+      {
+        "term": "¡Ponte el pijama!",
+        "reading": "PON-te el pi-JA-ma",
+        "meaning": "잠옷 입어!",
+        "example": "¡Apaga la tele y ponte el pijama!",
+        "example_ko": "TV 끄고 잠옷 입어!"
+      },
+      {
+        "term": "Abre la puerta",
+        "reading": "",
+        "meaning": "문 열어",
+        "example": "Abre la puerta, por favor.",
+        "example_ko": "문 좀 열어 주세요."
+      }
+    ],
+    [
+      {
+        "term": "Recoge tus juguetes",
+        "reading": "",
+        "meaning": "장난감 정리해",
+        "example": "Recoge tus juguetes ahora.",
+        "example_ko": "지금 장난감 정리해."
+      },
+      {
+        "term": "Apaga la tele",
+        "reading": "",
+        "meaning": "TV 꺼",
+        "example": "Apaga la tele, por favor.",
+        "example_ko": "TV 꺼 주세요."
+      }
+    ],
+    [
+      {
+        "term": "pijama",
+        "reading": "pi-JA-ma",
+        "meaning": "잠옷",
+        "example": "El pijama está aquí.",
+        "example_ko": "잠옷이 여기 있어요."
+      }
+    ],
+    [
+      {
+        "term": "juguetes",
+        "reading": "ju-GUE-tes",
+        "meaning": "장난감들",
+        "example": "Recoge tus juguetes, por favor.",
+        "example_ko": "장난감 정리해 주세요."
+      }
+    ]
+  ],
+  "fixTitle1": "헷갈림",
+  "fixTitle2": "주의",
+  "corrections": [
+    {
+      "before": "pigiama",
+      "after": "pijama",
+      "tip": "스페인어는 pijama로 써요"
+    },
+    {
+      "before": "juguetes",
+      "after": "juguetes",
+      "tip": "gue 철자를 꼭 함께 기억해요"
+    }
+  ],
+  "summary3": [
+    "잠옷 표현 익혔어요",
+    "복습 3문장 점검했어요",
+    "철자 차이도 정리 완료"
+  ],
+  "review": [
+    "¡Ponte el pijama! 잠옷 입어!",
+    "Abre la puerta 문 열어",
+    "Recoge tus juguetes 장난감 정리",
+    "Apaga la tele TV 꺼"
+  ]
+}

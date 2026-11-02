@@ -8,7 +8,15 @@
 //   node scripts/sync-notes.mjs --dry-run       # list what would be created
 //   Notes listed in scripts/skip-notes.json (id -> reason) are never built unless --include-skipped.
 //
-// Secrets come from env (LANGSTUDY_API_KEY, LANGSTUDY_BASE_URL, LCAR_OPENAI_API_KEY / OPENAI_API_KEY) or, on the box,
+// No paid API calls. Two-phase flow (the routine's assistant writes the carousel content):
+//   node scripts/sync-notes.mjs --prepare [--out=FILE] [--lang=..] [--date=..] [--refresh|--force]
+//       -> writes pending notes + instructions + JSON schema to FILE
+//          (default /workspace/shared/nadoo-language-carousel/pending-carousels.json)
+//   (fill each items[].carousel object in FILE following "instructions" and "schema")
+//   node scripts/sync-notes.mjs --apply=FILE
+//       -> validates (schema + anonymity gate) and renders content/carousels/<slug>/
+//
+// Secrets come from env (LANGSTUDY_API_KEY, LANGSTUDY_BASE_URL) or, on the box,
 // from /home/box/agent-data/box-secrets.json. They are never printed.
 import fs from "node:fs";
 import path from "node:path";
@@ -41,7 +49,7 @@ const SKIP = (() => {
     return {};
   }
 })();
-const MODEL = process.env.OPENAI_MODEL || "gpt-5.4";
+const PENDING_DEFAULT = "/workspace/shared/nadoo-language-carousel/pending-carousels.json";
 
 function secrets() {
   let file = {};
@@ -60,11 +68,6 @@ function secrets() {
   return {
     base: (process.env.LANGSTUDY_BASE_URL || ls.BASE_URL || file.langstudy?.BASE_URL || "https://language-study-snowy.vercel.app").replace(/\/$/, ""),
     apiKey: process.env.LANGSTUDY_API_KEY || ls.API_KEY || file.langstudy?.API_KEY || "",
-    openai:
-      process.env.LCAR_OPENAI_API_KEY ||
-      file.card?.OPENAI_API_KEY_FIXED ||
-      (/^sk-/.test(process.env.OPENAI_API_KEY || "") ? process.env.OPENAI_API_KEY : "") ||
-      "",
   };
 }
 
@@ -169,8 +172,8 @@ const SYSTEM = `당신은 '나두랭귀지 캐러셀'의 에디터입니다. '�
 - 교정이 없는 노트면 헷갈리기 쉬운 포인트(발음·철자·비슷한 단어)를 before→after로 정리하세요.
 - 글자 수 제한을 반드시 지키세요. 이모지는 hook.icon에만.`;
 
-async function draftSpec(sec, lang, note, cards, feedback = "") {
-  const payload = {
+function notePayload(lang, note, cards) {
+  return {
     language: lang,
     language_name: LANGS[lang].ko,
     note: {
@@ -183,21 +186,23 @@ async function draftSpec(sec, lang, note, cards, feedback = "") {
     },
     same_day_cards: cards.map((card) => ({ term: card.term, meaning_ko: card.meaning_ko, example: card.example, example_ko: card.example_ko, reading: card.reading })),
   };
-  const response = await fetch("https://api.openai.com/v1/chat/completions", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${sec.openai}`, "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model: MODEL,
-      messages: [
-        { role: "system", content: SYSTEM },
-        { role: "user", content: `다음 학습 노트로 캐러셀 JSON을 만드세요.${feedback}\n\n${scrubText(JSON.stringify(payload))}` },
-      ],
-      response_format: { type: "json_schema", json_schema: { name: "carousel", strict: true, schema: SCHEMA } },
-    }),
-  });
-  if (!response.ok) throw new Error(`OpenAI ${response.status}: ${(await response.text()).slice(0, 300)}`);
-  const data = await response.json();
-  return JSON.parse(data.choices[0].message.content);
+}
+
+// Minimal JSON-schema check for SCHEMA (types, required, additionalProperties).
+function validate(schema, value, at = "carousel") {
+  const errs = [];
+  if (schema.type === "object") {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return [`${at}: object expected`];
+    for (const key of schema.required || []) if (!(key in value)) errs.push(`${at}.${key}: missing`);
+    for (const key of Object.keys(value)) {
+      if (!schema.properties[key]) { if (schema.additionalProperties === false) errs.push(`${at}.${key}: unexpected`); continue; }
+      errs.push(...validate(schema.properties[key], value[key], `${at}.${key}`));
+    }
+  } else if (schema.type === "array") {
+    if (!Array.isArray(value)) return [`${at}: array expected`];
+    value.forEach((v, i) => errs.push(...validate(schema.items, v, `${at}[${i}]`)));
+  } else if (schema.type === "string" && typeof value !== "string") errs.push(`${at}: string expected`);
+  return errs;
 }
 
 function kstIso(note) {
@@ -223,18 +228,11 @@ function slideText(spec, raw) {
   return list;
 }
 
-async function buildCarousel(sec, lang, note, cards, existing) {
-  let raw;
-  let feedback = "";
-  for (let attempt = 1; attempt <= 4; attempt += 1) {
-    raw = await draftSpec(sec, lang, note, cards, feedback);
-    const hits = findViolations(JSON.stringify(raw));
-    if (hits.length && process.env.LCAR_DEBUG) fs.writeFileSync(`/tmp/lcar-rejected-${lang}-${attempt}.json`, JSON.stringify(raw, null, 2));
-    if (!hits.length) break;
-    feedback = `\n\n이전 초안에 금지된 개인 정보/호칭이 있었습니다 (${hits.map((hit) => hit.match).join(", ")}). 모두 제거하고 중립적으로 다시 쓰세요.`;
-    console.warn(`[${lang}] draft ${attempt} rejected by anonymity gate: ${hits.map((hit) => hit.match).join(", ")}`);
-    if (attempt === 4) throw new Error(`${note.id}: anonymity violations remain after retries; nothing written`);
-  }
+async function buildCarousel(raw, lang, note, existing) {
+  const schemaErrors = validate(SCHEMA, raw);
+  if (schemaErrors.length) throw new Error(`${note.id}: schema errors: ${schemaErrors.slice(0, 8).join("; ")}`);
+  const hits = findViolations(JSON.stringify(raw));
+  if (hits.length) throw new Error(`${note.id}: anonymity violations (${hits.map((hit) => hit.match).join(", ")}); rewrite neutrally; nothing written`);
   raw.expressions = raw.expressions.filter((group) => group.length).slice(0, 4);
   const info = LANGS[lang];
   const day = note.date.replaceAll("-", "");
@@ -296,13 +294,16 @@ async function buildCarousel(sec, lang, note, cards, existing) {
   return { slug, title: raw.title, slides: files.length };
 }
 
-async function main() {
-  requirePrivateTerms();
-  const sec = secrets();
+function pendingPath() {
+  const value = args.apply && args.apply !== true ? args.apply : args.out && args.out !== true ? args.out : PENDING_DEFAULT;
+  return path.resolve(String(value));
+}
+
+async function prepare(sec) {
   if (!sec.apiKey) throw new Error("Missing language-study API key (LANGSTUDY_API_KEY)");
   const langs = args.lang ? String(args.lang).split(",") : Object.keys(LANGS);
   const existing = existingPosts();
-  const created = [];
+  const pending = [];
   for (const lang of langs) {
     if (!LANGS[lang]) throw new Error(`Unknown language: ${lang}`);
     const { notes = [] } = await api(sec, `/api/v1/notes?language=${lang}`);
@@ -325,18 +326,61 @@ async function main() {
       todo.forEach((note) => console.log(`[${lang}] would build ${note.id} (${note.date})`));
       continue;
     }
-    if (!sec.openai) throw new Error("Missing OPENAI_API_KEY");
     const { items = [] } = await api(sec, `/api/v1/items?language=${lang}&include=all`);
     for (const note of todo) {
       const cards = items.filter(
         (item) => item.added_by !== "seed" && (String(item.tags || "").includes(note.date) || String(item.added_at || "").startsWith(note.date)),
       );
-      const result = await buildCarousel(sec, lang, note, cards, existing.get(note.id));
-      created.push(result);
-      console.log(`[${lang}] built ${result.slug} — ${result.title} (${result.slides} slides)`);
+      pending.push({
+        language: lang,
+        note: { id: note.id, date: note.date, updated_at: note.updated_at || "", added_at: note.added_at || "" },
+        input: JSON.parse(scrubText(JSON.stringify(notePayload(lang, note, cards)))),
+        carousel: null,
+      });
+      console.log(`[${lang}] pending ${note.id} (${note.date})`);
     }
   }
-  if (!args["dry-run"]) console.log(created.length ? `Created/updated ${created.length} carousel(s).` : "No new notes. Nothing to do.");
+  if (args["dry-run"]) return;
+  const file = pendingPath();
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  const doc = {
+    created_at: new Date().toISOString(),
+    instructions: `${SYSTEM}\n\n각 items[].input(학습 노트)를 바탕으로 items[].carousel 에 schema를 정확히 따르는 JSON 객체를 채우세요. 다른 필드는 바꾸지 마세요. 만들지 않을 항목은 carousel을 null로 두세요.`,
+    schema: SCHEMA,
+    items: pending,
+  };
+  fs.writeFileSync(file, `${JSON.stringify(doc, null, 2)}\n`);
+  console.log(`PENDING=${file} (${pending.length} item${pending.length === 1 ? "" : "s"})`);
+}
+
+async function apply() {
+  const file = pendingPath();
+  const doc = JSON.parse(fs.readFileSync(file, "utf8"));
+  const existing = existingPosts();
+  const created = [];
+  const failed = [];
+  for (const item of doc.items || []) {
+    const lang = item.language;
+    if (!LANGS[lang]) { failed.push(`${item.note?.id}: unknown language ${lang}`); continue; }
+    if (!item.carousel) { console.log(`[${lang}] ${item.note.id}: no carousel filled, skipped`); continue; }
+    try {
+      const result = await buildCarousel(item.carousel, lang, item.note, existing.get(item.note.id));
+      created.push(result);
+      console.log(`[${lang}] built ${result.slug} — ${result.title} (${result.slides} slides)`);
+    } catch (error) {
+      failed.push(error.message);
+      console.error(`[${lang}] ${error.message}`);
+    }
+  }
+  console.log(created.length ? `Created/updated ${created.length} carousel(s).` : "No carousels applied.");
+  if (failed.length) throw new Error(`${failed.length} item(s) failed validation; fix them in ${file} and re-run --apply`);
+}
+
+async function main() {
+  requirePrivateTerms();
+  if (args.apply) return apply();
+  if (args.prepare || args["dry-run"]) return prepare(secrets());
+  throw new Error("Usage: --prepare [--out=FILE] | --apply=FILE  (see header)");
 }
 
 main().catch((error) => {
